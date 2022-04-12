@@ -1,0 +1,124 @@
+:root {
+    --body-background-color: #ffffff;
+    --primary-text-color: #4A4A4A;
+    --secondary-text-color: #F5F5F5;
+    --header-color: #333333;
+    --color-of-cards: #838383;
+    --color-of-certificat: #C1C1C1;
+    --accent-color: #E97522;
+    --main-font: 'Montserrat', sans-serif;
+}
+
+/* ========== COMPONENTS and UTILITES========== */
+.container {
+    outline: 2px solid tomato;
+    width: 1240px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* .button {
+    background-color: var(--button-background-color);
+    height: 52px;
+    width: 180px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+} */
+
+.heads {
+    font-family: var(--main-font);
+    margin: 0 0;
+}
+
+p,
+ul {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+/* ========== END COMPONENTS ========== */
+
+/* ========== BODY ==========*/
+.body {
+    width: 1440px;
+    background-color: var(--body-background-color);
+    color: --primary-text-color;
+    font-family: var(--main-font);
+    font-style: Medium;
+    font-weight: 500;
+}
+
+/* ========== END BODY ==========*/
+
+/* ========== HEADER ==========*/
+
+/* ========== END HEADER ==========*/
+
+/* ========== HERO ==========*/
+
+/* ========== END HERO ==========*/
+
+/* ========== WORKS ==========*/
+
+/* ========== END WORKS ==========*/
+
+/* ========== LOCATION ==========*/
+
+/* ========== END LOCATION ==========*/
+
+/* ========== DESIGN ==========*/
+
+/* ========== END DESIGN ==========*/
+
+/* ========== SERVICES ==========*/
+
+/* ========== END SERVICES ==========*/
+
+/* ========== WORKSTAGES ==========*/
+
+/* ========== END WORKSTAGES ==========*/
+
+/* ========== PHOTOSHOOT ==========*/
+
+/* ========== END PHOTOSHOOT ==========*/
+
+/* ========== PRICE ==========*/
+
+/* ========== END PRICE ==========*/
+
+/* ========== PHOTOGRAPHIC ==========*/
+
+/* ========== END PHOTOGRAPHIC ==========*/
+
+/* ========== GIFTS ==========*/
+
+/* ========== END GIFTS ==========*/
+
+/* ========== REVIEWS ==========*/
+
+/* ========== END REVIEWS ==========*/
+
+/* ========== BACKFORM ==========*/
+
+/* ========== END BACKFORM ==========*/
+
+/* ========== FOOTER ==========*/
+
+/* ========== END FOOTER ==========*/
