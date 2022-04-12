@@ -68,10 +68,23 @@ ul {
 /* ========== END BODY ==========*/
 
 /* ========== HEADER ==========*/
+.header-container {
+    margin: 0 auto;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+}
 
 /* ========== END HEADER ==========*/
 
 /* ========== HERO ==========*/
+.hero {
+    outline: 2px solid olive;
+}
 
 /* ========== END HERO ==========*/
 
