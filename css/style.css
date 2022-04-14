@@ -875,6 +875,48 @@ ul {
 /* ========== END PRICE ==========*/
 
 /* ========== PHOTOGRAPHIC ==========*/
+.photographic {
+    outline: 2px solid green;
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+
+    background-color: #F9F4EE;
+}
+
+.photographic__head {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+
+    color: var(--header-color);
+
+    margin-bottom: 32px;
+}
+
+.photographic__button {
+    display: flex;
+    align-items: center;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+
+    margin-left: auto;
+    cursor: pointer;
+
+    border: none;
+
+    color: var(--accent-color);
+    background-color: #F2F4F4;
+}
+
+.bottom-arrow {
+    margin-left: 20px;
+}
 
 /* ========== END PHOTOGRAPHIC ==========*/
 
