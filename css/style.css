@@ -328,6 +328,83 @@ ul {
 /* ========== END SERVICES ==========*/
 
 /* ========== WORKSTAGES ==========*/
+.workstages {
+    outline: 2px solid brown;
+    padding-top: 78px;
+    padding-bottom: 168px;
+}
+
+.workstages__head {
+    margin-bottom: 97px;
+
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.2;
+    
+    text-align: center;
+    
+    color: var(--header-color);
+}
+
+.workstages__box-firts {
+    border: 2px solid #E97522;
+    border-radius: 10px;
+    width: 348px;
+    height: 190px;
+    padding: 39px 39px 51px 40px;
+}
+
+.workstages__box-second {
+    border: 2px solid #E97522;
+    border-radius: 10px;
+    width: 348px;
+    height: 190px;
+    padding: 39px 39px 51px 40px;
+}
+
+.workstages__box-third {
+    border: 2px solid #E97522;
+    border-radius: 10px;
+    width: 348px;
+    height: 190px;
+    padding: 39px 39px 51px 40px;
+}
+
+.workstages__box-fourth {
+    border: 2px solid #E97522;
+    border-radius: 10px;
+    width: 348px;
+    height: 190px;
+    padding: 39px 39px 51px 40px;
+}
+
+.workstages__box-fifth {
+    border: 2px solid #E97522;
+    border-radius: 10px;
+    width: 348px;
+    height: 190px;
+    padding: 39px 39px 51px 40px;
+}
+
+.icon-number {
+    width: 50px;
+    height: 50px;
+    background-color: #F9F4EE;
+    text-align: center;
+    padding-top: 11px;
+
+    border-radius: 50%;
+}
+
+/* .workstages__box-firts::after {
+    display: inline-flex;
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: #F9F4EE;
+    border-radius: 50%;
+    background-image: url("../images/svg/sprite.svg#icon-number-four");
+} */
 
 /* ========== END WORKSTAGES ==========*/
 
