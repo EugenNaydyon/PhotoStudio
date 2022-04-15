@@ -527,7 +527,14 @@ ul {
     color:var(--color-of-cards);
 }
 
+/* .price-box__mini-package {
+    display: flex;
+    align-items: center;
+} */
+
 .price-box__mini-option {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.4;
@@ -538,6 +545,9 @@ ul {
     color: var(--header-color);
 }
 
+.icon-check-price {
+    margin-right: 8px;
+}
 .price-box__mini-option:last-child {
     margin-bottom: 32px;
 }
@@ -684,6 +694,8 @@ ul {
 }
 
 .price-box__standart-option {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.4;
@@ -821,6 +833,8 @@ ul {
 }
 
 .price-box__maxi-option {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.4;
@@ -872,6 +886,10 @@ ul {
     display: flex;
     justify-content: center;
 }
+
+.price-box__maxi-option--last {
+    align-items: flex-start;
+}
 /* ========== END PRICE ==========*/
 
 /* ========== PHOTOGRAPHIC ==========*/
@@ -921,7 +939,117 @@ ul {
 /* ========== END PHOTOGRAPHIC ==========*/
 
 /* ========== GIFTS ==========*/
+.gifts {
+    outline: 2px solid yellowgreen;
+    padding-top: 82px;
+    padding-bottom: 92px;
+}
 
+.gifts__head {
+    margin-bottom: 80px;
+
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+
+    color: var(--header-color);
+}
+
+.gifts-container {
+    display: flex;
+    padding-left: 120px;
+    padding-right: 86px;
+    padding-bottom: 38px;
+    border-radius: 25px;
+
+    background-color: #F2F4F4;
+}
+
+.gifts__description {
+    margin-top: 112px;
+    width: 400px;
+}
+
+.gifts__type {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    margin-bottom: 8px;
+    
+    color: var(--color-of-certificat);
+}
+
+.gifts__name {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+
+    margin-bottom: 52px;
+
+    color: var(--primary-text-color);
+}
+
+.gifts__item {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.4;
+
+    color: var(--primary-text-color);
+
+    margin-bottom: 24px;
+}
+
+.gifts__item:last-child {
+    margin-bottom: 0;
+}
+
+.icon-check {
+    margin-right: 16px;
+}
+
+.gifts__purchase {
+    margin-left: auto;
+}
+
+.gifts__expiration {
+    width: 380px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+
+    text-align: center;
+
+    color: var(--header-color);
+}
+
+.gifts__button {
+    width: 342px;
+    height: 48px;
+    margin: 0 auto;
+
+    border: none;
+    cursor: pointer;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+    color: var(--body-background-color);
+}
 /* ========== END GIFTS ==========*/
 
 /* ========== REVIEWS ==========*/
