@@ -225,6 +225,10 @@ ul {
 
     padding-top: 60px;
     padding-bottom: 80px;
+
+    background-image: url("../images/location/line-location.png");
+    background-repeat: no-repeat;
+    background-position: 0 10px;
 }
 
 .location__head {
@@ -330,8 +334,16 @@ ul {
 /* ========== WORKSTAGES ==========*/
 .workstages {
     outline: 2px solid brown;
+
+    height: 1212px;
+
+    position: relative;
     padding-top: 78px;
     padding-bottom: 168px;
+
+    background-image: url("../images/workstages/workstages-line.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .workstages__head {
@@ -348,45 +360,89 @@ ul {
 
 .workstages__box-firts {
     border: 2px solid #E97522;
+
+    position: absolute;
     border-radius: 10px;
     width: 348px;
     height: 190px;
     padding: 39px 39px 51px 40px;
+
+    top: 218px;
+    left: 112px;
+
+    background-color: var(--body-background-color);
+    z-index: 2;
 }
 
 .workstages__box-second {
     border: 2px solid #E97522;
+
+    position: absolute;
     border-radius: 10px;
     width: 348px;
     height: 190px;
     padding: 39px 39px 51px 40px;
+
+    top: 275px;
+    left: 733px;
+
+    background-color: var(--body-background-color);
+    z-index: 2;
 }
 
 .workstages__box-third {
     border: 2px solid #E97522;
+
+    position: absolute;
     border-radius: 10px;
     width: 348px;
     height: 190px;
     padding: 39px 39px 51px 40px;
+
+    top: 577px;
+    left: 984px;
+
+    background-color: var(--body-background-color);
+    z-index: 2;
 }
 
 .workstages__box-fourth {
     border: 2px solid #E97522;
+
+    position: absolute;
     border-radius: 10px;
     width: 348px;
     height: 190px;
     padding: 39px 39px 51px 40px;
+
+    top: 572px;
+    left: 274px;
+
+    background-color: var(--body-background-color);
+    z-index: 2;
 }
 
 .workstages__box-fifth {
     border: 2px solid #E97522;
+
+    position: absolute;
     border-radius: 10px;
     width: 348px;
     height: 190px;
     padding: 39px 39px 51px 40px;
+
+    top: 854px;
+    left: 638px;
+
+    background-color: var(--body-background-color);
+    z-index: 2;
 }
 
 .icon-number {
+    position: absolute;
+    left: -16px;
+    top: 156px;
+
     width: 50px;
     height: 50px;
     background-color: #F9F4EE;
@@ -462,6 +518,10 @@ ul {
     padding-right: 100px;
     padding-top: 118px;
     padding-bottom: 170px;
+
+    background-image: url("../images/price/bg-line.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .price__head {
@@ -492,6 +552,9 @@ ul {
     margin-right: 22px;
 
     background-color: #F2F4F4;
+    background-image: url("../images/price/double-circules.png");
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 
 .price-box__mini-type {
@@ -658,6 +721,9 @@ ul {
     margin-right: 22px;
 
     background-color: #F9F4EE;
+    background-image: url("../images/price/double-circules.png");
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 
 .price-box__standart-type {
@@ -797,6 +863,9 @@ ul {
     border-radius: 16px;
 
     background-color: #F5D9C6;
+    background-image: url("../images/price/maxi-duoble-circules.png");
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 
 .price-box__maxi-type {
@@ -940,9 +1009,22 @@ ul {
 
 /* ========== GIFTS ==========*/
 .gifts {
+    position: relative;
     outline: 2px solid yellowgreen;
     padding-top: 82px;
     padding-bottom: 92px;
+
+    /* background-image: url("../images/gifts/line-gifts.png");
+    background-repeat: no-repeat;
+    background-position: right bottom; */
+}
+
+.gifts__line-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    z-index: 2;
 }
 
 .gifts__head {
@@ -964,6 +1046,8 @@ ul {
     border-radius: 25px;
 
     background-color: #F2F4F4;
+
+    z-index: 1;
 }
 
 .gifts__description {
@@ -1050,10 +1134,16 @@ ul {
     
     color: var(--body-background-color);
 }
+
+.gifts__img {
+    z-index: 3;
+}
 /* ========== END GIFTS ==========*/
 
 /* ========== REVIEWS ==========*/
 .reviews {
+    position: relative;
+
     outline: 4px solid orange;
     padding-top: 60px;
     padding-bottom: 86px;
@@ -1071,6 +1161,8 @@ ul {
 
 .reviews-container {
     outline: 1px solid green;
+
+    position: relative;
     width: 1052px;
     margin: 0 auto;
 }
@@ -1098,6 +1190,11 @@ margin-right: 0;
 }
 
 .reviews__addreview {
+    position: absolute;
+    top: 650px;
+    left: 50%;
+    transform: translate(-50%);
+
     width: 342px;
     height: 48px;
 
@@ -1114,6 +1211,9 @@ margin-right: 0;
     text-transform: uppercase;
     
     color: var(--body-background-color);
+}
+
+.reviews__additional {
 }
 /* ========== END REVIEWS ==========*/
 
