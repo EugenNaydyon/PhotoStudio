@@ -425,6 +425,113 @@ ul {
     color: var(--body-background-color);
 }
 
+.services__img-group {
+    position: absolute;
+    top: 921px;
+    left: 100px;
+}
+
+.services__text-group {
+    position: absolute;
+    left: 132px;
+    top: 1589px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: var(--body-background-color);
+}
+
+.services__img-lookbook {
+    position: absolute;
+    top: 921px;
+    left: 524px;
+}
+
+.services__text-lookbook {
+    position: absolute;
+    left: 556px;
+    top: 1220px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: var(--body-background-color);
+}
+
+.services__img-girls {
+    position: absolute;
+    top: 1290px;
+    left: 524px;
+}
+
+.services__text-girls {
+    position: absolute;
+    left: 556px;
+    top: 1589px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: var(--body-background-color);
+}
+
+.services__img-pregnant {
+    position: absolute;
+    top: 1659px;
+    left: 100px;
+}
+
+.services__text-pregnant {
+    position: absolute;
+    left: 132px;
+    top: 1958px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: var(--body-background-color);
+}
+
+.services__img-with-animals {
+    position: absolute;
+    top: 1659px;
+    left: 524px;
+}
+
+.services__text-with-animals {
+    position: absolute;
+    left: 556px;
+    top: 1958px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: var(--body-background-color);
+}
+
+.services__img-bussiness-style {
+    position: absolute;
+    top: 1659px;
+    left: 949px;
+}
+
+.services__text-bussiness-style {
+    position: absolute;
+    left: 981px;
+    top: 1958px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: var(--body-background-color);
+}
 /* ========== END SERVICES ==========*/
 
 /* ========== WORKSTAGES ==========*/
