@@ -1339,6 +1339,7 @@ ul {
 }
 
 .gifts__img {
+    position: relative;
     z-index: 3;
 }
 /* ========== END GIFTS ==========*/
