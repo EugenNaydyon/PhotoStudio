@@ -284,6 +284,7 @@ ul {
     text-transform: uppercase;
 
     cursor: pointer;
+    border: none;
     
     color: var(--body-background-color);
 }
@@ -1547,3 +1548,119 @@ margin-right: 0;
 }
 
 /* ========== END FOOTER ==========*/
+
+/* ========== BACKDROP and MODAL ==========*/
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgb(131, 131, 131, 0.5);
+}
+
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal-feedback {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 1033px;
+    height: 559px;
+    border-radius: 15px;
+    padding-top: 60px;
+    padding-bottom: 54px;
+    padding-left: 34px;
+    padding-right: 40px;
+
+    background-color: var(--body-background-color);
+}
+
+.modal-feedback__img {
+    margin-top: 30px;
+}
+
+.modal-feedback__form {
+    margin-bottom: 6px;
+    margin-left: 25px;
+
+    width: 479px;
+    height: 439px;
+    outline: 1px solid tomato;
+}
+
+.modal-feedback__close {
+    position: absolute;
+    fill:var(--body-background-color);
+}
+
+.modal-feedback__close-button {
+    display: flex;
+    position: absolute;
+    top: -37px;
+    right: 0;
+
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+
+    background: none;
+    border: none;
+
+    cursor: pointer;
+}
+
+/* .modal-thank {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 622px;
+    height: 331px;
+    border-radius: 15px;
+    padding-top: 88px;
+    padding-bottom: 89px;
+    padding-left: 83px;
+    padding-right: 83px;
+
+    background-color: var(--body-background-color);
+    background-image: url("../images/modals/topright-bigcircule.png"), url("../images/modals/topright-smallcircule.png"), url("../images/modals/bottomleft-bigcircule.png"), url("../images/modals/bottomleft-smallcircule.jpg");
+    background-position: top right, left 551.31px top 74.61px, left bottom, left 14.56px bottom;
+    background-repeat: no-repeat;
+}
+
+.modal-thank__head {
+    margin-bottom: 24px;
+
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.2;
+
+    text-align: center;
+
+    color: var(--primary-text-color);
+}
+
+.modal-thank__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.38;
+
+    text-align: center;
+
+    color: #121621;
+    opacity: 0.4;
+} */
+/* ========== END BACKDROP and MODAL ==========*/
