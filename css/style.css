@@ -90,6 +90,11 @@ ul {
     margin-right: 32px;
 }
 
+.header__item:hover {
+    transform: scale(1.2);
+}
+
+
 .header__item:nth-child(6) {
     margin-right: 0;
 }
@@ -1320,6 +1325,7 @@ ul {
 }
 
 .gifts__button {
+    position: relative;
     width: 342px;
     height: 48px;
     margin: 0 auto;
@@ -1334,6 +1340,8 @@ ul {
     text-align: center;
     letter-spacing: 3px;
     text-transform: uppercase;
+
+    z-index: 3;
     
     color: var(--body-background-color);
 }
@@ -1485,6 +1493,11 @@ margin-right: 0;
     color: var(--primary-text-color);
 }
 
+.footer__menu-item:hover {
+    transform: scale(1.2);
+}
+
+
 .footer__menu-item:last-child {
     margin-right: 0;
 }
@@ -1526,6 +1539,7 @@ margin-right: 0;
 .twitter:hover,
 .telegram:hover {
     fill: var(--accent-color);
+    transform: scale(1.2);
 }
 
 .footer__social-icon:last-child {
