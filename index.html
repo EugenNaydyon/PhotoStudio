@@ -99,7 +99,7 @@
             <h2 class="services__head heads">Види послуг</h2>
             <div class="container services-container">
                 <!--galary of services with photo-->
-                <img src="./images/services/lovestory.jpg" alt="" class="service__img-lovestory">
+                <img src="./images/services/lovestory.jpg" alt="" class="services__img-lovestory">
                 <p class="services__text-lovestory">Фотосесія Лав Сторі</p>
                 
                 
@@ -550,7 +550,23 @@
     <div class="backdrop is-hidden" data-backdrop>
         <div class="modal-feedback">
             <img src="./images/modals/feedback-form.png" class="modal-feedback__img" alt="modal-feedback__img">
-            <div class="modal-feedback__form"></div>
+            
+            <form action="" class="js-speaker-form">
+                <div class="modal-feedback__form">
+                    <h2 class="modal-feedback__head">
+                        Форма зворотнього зв'язку
+                    </h2>
+                    <label for="name">Ім'я</label>
+                    <input type="text" name="feedback" id="name">
+                    <label for="mail" lang="en">E-mail</label>
+                    <input type="text" name="feedback" id="mail">
+                    <label for="tel">Телефон</label>
+                    <input type="text" name="feedback" id="tel">
+                    <button type="submit" class="modal-feedback__button button">Відправити</button>
+                    <p class="modal-feedback_agreement">Натискаючи кнопку «Надіслати», ви даєте згоду на обробку персональних даних та погоджуєтеся з політикою конфіденційності</p>
+                </div>
+            </form>
+            
             <button type="button" class="modal-feedback__close-button" data-close-modal>
                 <svg class="modal-feedback__close" width="21" height="21">
                     <use href="./images/svg/close-button.svg#icon-cross"></use>
@@ -587,6 +603,18 @@
         function logBackdropClick() {
             console.log ("Это клик в бекдроп");
         }
+
+        (() => {
+                document
+                    .querySelector('.js-speaker-form')
+                    .addEventListener('submit', e => {
+                        e.preventDefault();
+                        new FormData(e.currentTarget).forEach((value, name) =>
+                            console.log('${ name }: ${ value }'),
+                        );
+                    });
+        })();
+
     </script>
 </body>
 </html>

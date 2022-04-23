@@ -357,10 +357,11 @@ ul {
 }
 
 .services__img-lovestory {
-    display: inline-block;
     position: absolute;
     top:183px;
     left: 100px;
+
+    transition: transform 250ms linear;
 }
 
 .services__text-lovestory {
@@ -375,14 +376,27 @@ ul {
     color: var(--body-background-color);
 }
 
-.services__img-lovestory:hover {
-    transform: scale(1.2);
+.services__img-lovestory:hover,
+.services__img-teenager:hover,
+.services__img-pair:hover,
+.services__img-boy:hover,
+.services__img-family:hover,
+.services__img-group:hover,
+.services__img-lookbook:hover,
+.services__img-girls:hover,
+.services__img-pregnant:hover,
+.services__img-with-animals:hover,
+.services__img-bussiness-style:hover
+{
+    transform: scale(1.1);
 }
 
 .services__img-teenager {
     position: absolute;
     top:183px;
     left: 526px;
+
+    transition: transform 250ms linear;
 }
 
 .services__text-teenager {
@@ -401,6 +415,8 @@ ul {
     position: absolute;
     top: 183px;
     left: 948px;
+
+    transition: transform 250ms linear;
 }
 
 .services__text-pair {
@@ -419,6 +435,8 @@ ul {
     position: absolute;
     top: 553px;
     left: 100px;
+
+    transition: transform 250ms linear;
 }
 
 .services__text-boy {
@@ -437,6 +455,8 @@ ul {
     position: absolute;
     top: 553px;
     left: 948px;
+
+    transition: transform 250ms linear;
 }
 
 .services__text-family {
@@ -455,6 +475,8 @@ ul {
     position: absolute;
     top: 921px;
     left: 100px;
+
+    transition: transform 250ms linear;
 }
 
 .services__text-group {
@@ -473,6 +495,8 @@ ul {
     position: absolute;
     top: 921px;
     left: 524px;
+
+    transition: transform 250ms linear;
 }
 
 .services__text-lookbook {
@@ -491,6 +515,8 @@ ul {
     position: absolute;
     top: 1290px;
     left: 524px;
+
+    transition: transform 250ms linear;
 }
 
 .services__text-girls {
@@ -509,6 +535,8 @@ ul {
     position: absolute;
     top: 1659px;
     left: 100px;
+
+    transition: transform 250ms linear;
 }
 
 .services__text-pregnant {
@@ -527,6 +555,8 @@ ul {
     position: absolute;
     top: 1659px;
     left: 524px;
+
+    transition: transform 250ms linear;
 }
 
 .services__text-with-animals {
@@ -545,6 +575,8 @@ ul {
     position: absolute;
     top: 1659px;
     left: 949px;
+
+    transition: transform 250ms linear;
 }
 
 .services__text-bussiness-style {
@@ -558,6 +590,8 @@ ul {
 
     color: var(--body-background-color);
 }
+
+
 /* ========== END SERVICES ==========*/
 
 /* ========== WORKSTAGES ==========*/
@@ -1628,6 +1662,46 @@ margin-right: 0;
     width: 479px;
     height: 439px;
     outline: 1px solid tomato;
+}
+
+.modal-feedback__head {
+    margin-bottom: 32px;
+
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+ 
+    color: var(--primary-text-color);
+}
+
+.modal-feedback__button {
+    padding: 14px 74px; 
+    width: 420px;
+    height: 48px;
+    margin: 0 auto;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+    color: var(--body-background-color);
+
+    cursor: pointer;
+    border: none;
+}
+
+.modal-feedback_agreement {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+
+    text-align: center;
+    
+    color: #585858;
 }
 
 .modal-feedback__close {
