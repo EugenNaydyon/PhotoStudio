@@ -102,7 +102,6 @@
                 <img src="./images/services/lovestory.jpg" alt="" class="services__img-lovestory">
                 <p class="services__text-lovestory">Фотосесія Лав Сторі</p>
                 
-                
                 <img src="./images/services/teenager.jpg" alt="" class="services__img-teenager">
                 <p class="services__text-teenager">Фотосесія для підлітків</p>
 
@@ -468,10 +467,38 @@
         <section class="backform">
             <div class="backform-container">
                 <div class="backform__googlemap">
-                    <a href="https://www.google.com/maps/place/Nikopol+City+Council/@47.5669087,34.39311,17.25z/data=!4m5!3m4!1s0x40dca39b0bc8c3a9:0xde5bf099a48eebaa!8m2!3d47.5682622!4d34.3911676" target="_blank" rel="norefferer noopener">
+                    <a href="https://www.google.com/maps/place/Nikopol+City+Council/@47.5669087,34.39311,17.25z/data=!4m5!3m4!1s0x40dca39b0bc8c3a9:0xde5bf099a48eebaa!8m2!3d47.5682622!4d34.3911676" target="_blank" rel="norefferer noopener" class="backform__link">
                         <img class="backform__img" src="/images/backform/google-map.jpg" lang="en" alt="Google map with the location of the office">
                     </a>
                 </div>
+
+                    <form action="" class="backform__form" autocomplete="on">
+                        <div class="backform__form-container">
+                            <h2 class="modal-feedback__head">
+                                Форма зворотнього зв'язку
+                            </h2>
+                    
+                            <div class="modal-feedback__block">
+                                <label for="name">Ім'я</label>
+                                <input type="text" name="feedback" id="name" placeholder="Петро Петрович" autofocus>
+                            </div>
+                    
+                            <div class="modal-feedback__block">
+                                <label for="mail" lang="en">E-mail</label>
+                                <input type="email" name="feedback" id="mail" placeholder="My@mail.com">
+                            </div>
+                    
+                            <div class="modal-feedback__block backform__form--lastblock">
+                                <label for="tel">Телефон</label>
+                                <input type="tel" name="feedback" id="tel" placeholder="+380 00-000-00-00">
+                            </div>
+                    
+                            <button type="submit" class="modal-feedback__button modal-feedback--backform-button button">Відправити</button>
+                            <p class="modal-feedback_agreement">Натискаючи кнопку «Надіслати», ви даєте згоду на обробку персональних даних
+                                та погоджуєтеся з <a href="">політикою конфіденційності</a> </p>
+                        </div>
+                    </form>
+
             </div>
             <!--форма зворотнього зв'язку-->
         </section>
@@ -556,16 +583,23 @@
                     <h2 class="modal-feedback__head">
                         Форма зворотнього зв'язку
                     </h2>
-                    <label for="name">Ім'я</label>
-                    <input type="text" name="feedback" id="name" placeholder="Петро Петрович" autofocus>
+                    
+                    <div class="modal-feedback__block">
+                        <label for="name">Ім'я</label>
+                        <input type="text" name="feedback" id="name" placeholder="Петро Петрович" autofocus>
+                    </div>
+                    
+                    <div class="modal-feedback__block">
+                        <label for="mail" lang="en">E-mail</label>
+                        <input type="email" name="feedback" id="mail" placeholder="My@mail.com">
+                    </div>
 
-                    <label for="mail" lang="en">E-mail</label>
-                    <input type="email" name="feedback" id="mail" placeholder="My@mail.com">
+                    <div class="modal-feedback__block modal-feedback__block--lastblock">
+                        <label for="tel">Телефон</label>
+                        <input type="tel" name="feedback" id="tel" placeholder="+380 00-000-00-00">
+                    </div>
 
-                    <label for="tel">Телефон</label>
-                    <input type="tel" name="feedback" id="tel" placeholder="+380 00-000-00-00">
-
-                    <button type="submit" class="modal-feedback__button button">Відправити</button>
+                      <button type="submit" class="modal-feedback__button button">Відправити</button>
                     <p class="modal-feedback_agreement">Натискаючи кнопку «Надіслати», ви даєте згоду на обробку персональних даних та погоджуєтеся з політикою конфіденційності</p>
                 </div>
             </form>
@@ -584,6 +618,12 @@
             <p class="modal-thank__text">
                 Наші спеціалісти вже обробляють Вашу заявку та зв'яжуться з Вами найближчим часом
             </p>
+
+            <button type="button" class="modal-feedback__close-button" data-close-modal>
+                <svg class="modal-feedback__close" width="21" height="21">
+                    <use href="./images/svg/close-button.svg#icon-cross"></use>
+                </svg>
+            </button>
         </div> -->
     </div>
 
