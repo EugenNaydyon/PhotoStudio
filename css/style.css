@@ -262,23 +262,42 @@ ul {
     color: var(--header-color);
 }
 
-/* .location__bg {
-    background-image: url("../images/location/line-location.png");
-    position: absolute;
-    width: 646.91px;
-    height: 1728.22px;
-    left: 1567.9px;
-    top: 272.58px;
-    
-    opacity: 0.2;
-    /* Text color 2 */
-    
-    /* border: 3px dashed #4A4A4A;
-    border-radius: 100px;
-    transform: rotate(103.22deg);
+.location__list {
+    display: flex;
+    justify-content: center;
+}
+
+.location__item:not(:last-child) {
+    margin-right: 28px;
+}
+
+/* .location__svg {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+    width: 73px;
+    height: 73px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 6px 9px;
+
+    border: 2px solid #585858;
+    border-radius: 50%;
 } */
 
+.location__svg {
+    display: inline-block;
+    outline: 1px solid green;
+    width: 73px;
+    height: 73px;
+}
 
+.location__icon {
+    outline: 1px solid tomato;
+    width: 60px;
+    height: 60px;
+}
 
 .location__button {
     margin-top: 60px;
