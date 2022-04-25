@@ -551,17 +551,20 @@
         <div class="modal-feedback">
             <img src="./images/modals/feedback-form.png" class="modal-feedback__img" alt="modal-feedback__img">
             
-            <form action="" class="js-speaker-form">
+            <form action="" class="js-speaker-form" autocomplete="on">
                 <div class="modal-feedback__form">
                     <h2 class="modal-feedback__head">
                         Форма зворотнього зв'язку
                     </h2>
                     <label for="name">Ім'я</label>
-                    <input type="text" name="feedback" id="name">
+                    <input type="text" name="feedback" id="name" placeholder="Петро Петрович" autofocus>
+
                     <label for="mail" lang="en">E-mail</label>
-                    <input type="text" name="feedback" id="mail">
+                    <input type="email" name="feedback" id="mail" placeholder="My@mail.com">
+
                     <label for="tel">Телефон</label>
-                    <input type="text" name="feedback" id="tel">
+                    <input type="tel" name="feedback" id="tel" placeholder="+380 00-000-00-00">
+
                     <button type="submit" class="modal-feedback__button button">Відправити</button>
                     <p class="modal-feedback_agreement">Натискаючи кнопку «Надіслати», ви даєте згоду на обробку персональних даних та погоджуєтеся з політикою конфіденційності</p>
                 </div>

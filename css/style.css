@@ -1728,6 +1728,11 @@ margin-right: 0;
     cursor: pointer;
 }
 
+.modal-feedback__form input {
+    padding: 0;
+    margin: 0;
+}
+
 /* .modal-thank {
     position: absolute;
     top: 50%;
