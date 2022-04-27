@@ -393,11 +393,13 @@ ul {
     line-height: 1.25;
 
     color: var(--body-background-color);
+
+    transition: transform 250ms linear;
 }
 
-.services__img-lovestory:hover,
-.services__img-teenager:hover,
-.services__img-pair:hover,
+/* .services__img-lovestory:hover, */
+/* .services__img-teenager:hover, */
+/* .services__img-pair:hover,
 .services__img-boy:hover,
 .services__img-family:hover,
 .services__img-group:hover,
@@ -408,13 +410,18 @@ ul {
 .services__img-bussiness-style:hover
 {
     transform: scale(1.1);
-}
-
-
-/* .services__img-lovestory:hover, 
-.services__text-lovestory {
-    transform: scale(1.1);
 } */
+
+
+/* .services__text-lovestory:hover {
+    transform: scale(1.1);
+    color: .#E97522;
+} */
+
+.service-img-container:hover .services__img-lovestory, 
+.service-img-container:hover .services__text-lovestory {
+    transform: scale(1.1);
+}
 
 .services__img-teenager {
     position: absolute;
@@ -434,6 +441,13 @@ ul {
     line-height: 1.25;
     
     color: var(--body-background-color);
+
+    transition: transform 250ms linear;
+}
+
+.service-img-container:hover .services__img-teenager,
+.service-img-container:hover .services__text-teenager {
+    transform: scale(1.1);
 }
 
 .services__img-pair {
@@ -454,6 +468,13 @@ ul {
     line-height: 1.25;
 
     color: var(--body-background-color);
+
+    transition: transform 250ms linear;
+}
+
+.service-img-container:hover .services__img-pair,
+.service-img-container:hover .services__text-pair {
+    transform: scale(1.1);
 }
 
 .services__img-boy {
@@ -474,6 +495,13 @@ ul {
     line-height: 1.25;
 
     color: var(--body-background-color);
+
+    transition: transform 250ms linear;
+}
+
+.service-img-container:hover .services__img-boy,
+.service-img-container:hover .services__text-boy {
+    transform: scale(1.1);
 }
 
 .services__img-family {
@@ -494,6 +522,13 @@ ul {
     line-height: 1.25;
 
     color: var(--body-background-color);
+
+    transition: transform 250ms linear;
+}
+
+.service-img-container:hover .services__img-family,
+.service-img-container:hover .services__text-family {
+    transform: scale(1.1);
 }
 
 .services__img-group {
@@ -514,6 +549,13 @@ ul {
     line-height: 1.25;
 
     color: var(--body-background-color);
+
+    transition: transform 250ms linear;
+}
+
+.service-img-container:hover .services__img-group,
+.service-img-container:hover .services__text-group {
+    transform: scale(1.1);
 }
 
 .services__img-lookbook {
@@ -534,6 +576,13 @@ ul {
     line-height: 1.25;
 
     color: var(--body-background-color);
+
+    transition: transform 250ms linear;
+}
+
+.service-img-container:hover .services__img-lookbook,
+.service-img-container:hover .services__text-lookbook {
+    transform: scale(1.1);
 }
 
 .services__img-girls {
@@ -554,6 +603,13 @@ ul {
     line-height: 1.25;
 
     color: var(--body-background-color);
+
+    transition: transform 250ms linear;
+}
+
+.service-img-container:hover .services__img-girls,
+.service-img-container:hover .services__text-girls {
+    transform: scale(1.1);
 }
 
 .services__img-pregnant {
@@ -574,6 +630,13 @@ ul {
     line-height: 1.25;
 
     color: var(--body-background-color);
+
+    transition: transform 250ms linear;
+}
+
+.service-img-container:hover .services__img-pregnant,
+.service-img-container:hover .services__text-pregnant {
+    transform: scale(1.1);
 }
 
 .services__img-with-animals {
@@ -594,6 +657,13 @@ ul {
     line-height: 1.25;
 
     color: var(--body-background-color);
+
+    transition: transform 250ms linear;
+}
+
+.service-img-container:hover .services__img-with-animals,
+.service-img-container:hover .services__text-with-animals {
+    transform: scale(1.1);
 }
 
 .services__img-bussiness-style {
@@ -614,8 +684,14 @@ ul {
     line-height: 1.25;
 
     color: var(--body-background-color);
+
+    transition: transform 250ms linear;
 }
 
+.service-img-container:hover .services__img-bussiness-style,
+.service-img-container:hover .services__text-bussiness-style {
+    transform: scale(1.1);
+}
 
 /* ========== END SERVICES ==========*/
 
