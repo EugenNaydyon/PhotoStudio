@@ -243,6 +243,8 @@ ul {
 .location {
     outline: 2px solid teal;
 
+    position: relative;
+
     padding-top: 60px;
     padding-bottom: 80px;
 
@@ -271,32 +273,37 @@ ul {
     margin-right: 28px;
 }
 
-/* .location__svg {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
+.location__navigation-button {
+    position: absolute;
+    left: 63px;
+    top: 321px;
 
-    width: 73px;
+
+    display: flex;
+    width: 1313px;
     height: 73px;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 6px 9px;
 
-    border: 2px solid #585858;
-    border-radius: 50%;
-} */
+    z-index: 2;
 
-.location__svg {
-    display: inline-block;
-    outline: 1px solid green;
-    width: 73px;
-    height: 73px;
+    /* outline: 1px solid tomato; */
 }
 
-.location__icon {
-    outline: 1px solid tomato;
-    width: 60px;
-    height: 60px;
+.location__span-icon {
+    /* outline: 1px solid greenyellow; */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 73px;
+    height: 73px;
+
+    border-radius: 50%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+
+    background-color: #ffffff;
+}
+
+.location__span-icon--right {
+    margin-left: auto;
 }
 
 .location__button {
@@ -396,27 +403,6 @@ ul {
 
     transition: transform 250ms linear;
 }
-
-/* .services__img-lovestory:hover, */
-/* .services__img-teenager:hover, */
-/* .services__img-pair:hover,
-.services__img-boy:hover,
-.services__img-family:hover,
-.services__img-group:hover,
-.services__img-lookbook:hover,
-.services__img-girls:hover,
-.services__img-pregnant:hover,
-.services__img-with-animals:hover,
-.services__img-bussiness-style:hover
-{
-    transform: scale(1.1);
-} */
-
-
-/* .services__text-lovestory:hover {
-    transform: scale(1.1);
-    color: .#E97522;
-} */
 
 .service-img-container:hover .services__img-lovestory, 
 .service-img-container:hover .services__text-lovestory {
