@@ -1,0 +1,314 @@
+.services {
+    outline: 2px solid rgb(218, 124, 16);
+    position: relative;
+
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.services__head {
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+
+    color: var(--header-color);
+}
+
+.services__img-lovestory {
+    position: absolute;
+    top: 183px;
+    left: 100px;
+
+    transition: transform 250ms linear;
+}
+
+.services__text-lovestory {
+    position: absolute;
+    left: 132px;
+    top: 482px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: var(--body-background-color);
+
+    transition: transform 250ms linear;
+}
+
+.service-img-container:hover .services__img-lovestory,
+.service-img-container:hover .services__text-lovestory {
+    transform: scale(1.1);
+}
+
+.services__img-teenager {
+    position: absolute;
+    top: 183px;
+    left: 526px;
+
+    transition: transform 250ms linear;
+}
+
+.services__text-teenager {
+    position: absolute;
+    left: 558px;
+    top: 852px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: var(--body-background-color);
+
+    transition: transform 250ms linear;
+}
+
+.service-img-container:hover .services__img-teenager,
+.service-img-container:hover .services__text-teenager {
+    transform: scale(1.1);
+}
+
+.services__img-pair {
+    position: absolute;
+    top: 183px;
+    left: 948px;
+
+    transition: transform 250ms linear;
+}
+
+.services__text-pair {
+    position: absolute;
+    left: 980px;
+    top: 482px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: var(--body-background-color);
+
+    transition: transform 250ms linear;
+}
+
+.service-img-container:hover .services__img-pair,
+.service-img-container:hover .services__text-pair {
+    transform: scale(1.1);
+}
+
+.services__img-boy {
+    position: absolute;
+    top: 553px;
+    left: 100px;
+
+    transition: transform 250ms linear;
+}
+
+.services__text-boy {
+    position: absolute;
+    left: 133px;
+    top: 852px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: var(--body-background-color);
+
+    transition: transform 250ms linear;
+}
+
+.service-img-container:hover .services__img-boy,
+.service-img-container:hover .services__text-boy {
+    transform: scale(1.1);
+}
+
+.services__img-family {
+    position: absolute;
+    top: 553px;
+    left: 948px;
+
+    transition: transform 250ms linear;
+}
+
+.services__text-family {
+    position: absolute;
+    left: 980px;
+    top: 1220px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: var(--body-background-color);
+
+    transition: transform 250ms linear;
+}
+
+.service-img-container:hover .services__img-family,
+.service-img-container:hover .services__text-family {
+    transform: scale(1.1);
+}
+
+.services__img-group {
+    position: absolute;
+    top: 921px;
+    left: 100px;
+
+    transition: transform 250ms linear;
+}
+
+.services__text-group {
+    position: absolute;
+    left: 132px;
+    top: 1589px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: var(--body-background-color);
+
+    transition: transform 250ms linear;
+}
+
+.service-img-container:hover .services__img-group,
+.service-img-container:hover .services__text-group {
+    transform: scale(1.1);
+}
+
+.services__img-lookbook {
+    position: absolute;
+    top: 921px;
+    left: 524px;
+
+    transition: transform 250ms linear;
+}
+
+.services__text-lookbook {
+    position: absolute;
+    left: 556px;
+    top: 1220px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: var(--body-background-color);
+
+    transition: transform 250ms linear;
+}
+
+.service-img-container:hover .services__img-lookbook,
+.service-img-container:hover .services__text-lookbook {
+    transform: scale(1.1);
+}
+
+.services__img-girls {
+    position: absolute;
+    top: 1290px;
+    left: 524px;
+
+    transition: transform 250ms linear;
+}
+
+.services__text-girls {
+    position: absolute;
+    left: 556px;
+    top: 1589px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: var(--body-background-color);
+
+    transition: transform 250ms linear;
+}
+
+.service-img-container:hover .services__img-girls,
+.service-img-container:hover .services__text-girls {
+    transform: scale(1.1);
+}
+
+.services__img-pregnant {
+    position: absolute;
+    top: 1659px;
+    left: 100px;
+
+    transition: transform 250ms linear;
+}
+
+.services__text-pregnant {
+    position: absolute;
+    left: 132px;
+    top: 1958px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: var(--body-background-color);
+
+    transition: transform 250ms linear;
+}
+
+.service-img-container:hover .services__img-pregnant,
+.service-img-container:hover .services__text-pregnant {
+    transform: scale(1.1);
+}
+
+.services__img-with-animals {
+    position: absolute;
+    top: 1659px;
+    left: 524px;
+
+    transition: transform 250ms linear;
+}
+
+.services__text-with-animals {
+    position: absolute;
+    left: 556px;
+    top: 1958px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: var(--body-background-color);
+
+    transition: transform 250ms linear;
+}
+
+.service-img-container:hover .services__img-with-animals,
+.service-img-container:hover .services__text-with-animals {
+    transform: scale(1.1);
+}
+
+.services__img-bussiness-style {
+    position: absolute;
+    top: 1659px;
+    left: 949px;
+
+    transition: transform 250ms linear;
+}
+
+.services__text-bussiness-style {
+    position: absolute;
+    left: 981px;
+    top: 1958px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: var(--body-background-color);
+
+    transition: transform 250ms linear;
+}
+
+.service-img-container:hover .services__img-bussiness-style,
+.service-img-container:hover .services__text-bussiness-style {
+    transform: scale(1.1);
+}

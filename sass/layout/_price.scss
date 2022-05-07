@@ -1,0 +1,426 @@
+.price {
+    outline: 2px solid #2b1abe;
+
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 118px;
+    padding-bottom: 170px;
+
+    background-image: url("../images/price/bg-line.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.price__head {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+
+    margin-bottom: 80px;
+
+    color: var(--header-color);
+}
+
+.price-box {
+    display: flex;
+    align-items: center;
+}
+
+.price-box__mini {
+    outline: 2px solid #2b1abe;
+    width: 398px;
+    height: 100%;
+    padding-top: 48px;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-bottom: 42px;
+    border-radius: 16px;
+    margin-right: 22px;
+
+    background-color: #F2F4F4;
+    background-image: url("../images/price/double-circules.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.price-box__mini-type {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+
+    margin-left: 30px;
+    margin-bottom: 16px;
+
+    color: var(--primary-text-color);
+}
+
+.price-box__mini-value {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.2;
+
+    margin-left: 30px;
+    margin-bottom: 4px;
+
+    color: var(--header-color);
+}
+
+.price-box__mini-location {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.4;
+
+    margin-left: 30px;
+    margin-bottom: 40px;
+
+    color: var(--color-of-cards);
+}
+
+.price-box__mini-option {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+
+    margin-left: 30px;
+    margin-bottom: 16px;
+
+    color: var(--header-color);
+}
+
+.icon-check-price {
+    margin-right: 8px;
+}
+
+.price-box__mini-option:last-child {
+    margin-bottom: 32px;
+}
+
+.price-box__mini-additional {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.4;
+
+    text-align: center;
+
+    margin-bottom: 12px;
+
+    color: var(--header-color);
+}
+
+.price-box__mini-additional-option {
+    margin-bottom: 52px;
+}
+
+.price-box__mini-additional-help {
+    display: inline-block;
+    width: 108px;
+    height: 40px;
+    padding: 6px 5px;
+
+    background: var(--body-background-color);
+    border: 1px solid #C2C2C2;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.2;
+
+    text-align: center;
+
+    color: var(--header-color);
+}
+
+.price-box__mini-additional-visagiste {
+    display: inline-block;
+    width: 82px;
+    height: 40px;
+    padding: 6px 8px;
+
+    background: var(--body-background-color);
+    border: 1px solid #C2C2C2;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.2;
+
+    text-align: center;
+
+    color: var(--header-color);
+}
+
+.price-box__mini-additional-retouch {
+    display: inline-block;
+    width: 170px;
+    height: 40px;
+    padding: 6px;
+
+    background: var(--body-background-color);
+    border: 1px solid #C2C2C2;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.2;
+
+    text-align: center;
+
+    color: var(--header-color);
+}
+
+.price-box__standart {
+    outline: 2px solid #2b1abe;
+    width: 398px;
+    height: 100%;
+    padding-top: 48px;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-bottom: 42px;
+    border-radius: 16px;
+    margin-right: 22px;
+
+    background-color: #F9F4EE;
+    background-image: url("../images/price/double-circules.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.price-box__standart-type {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+
+    margin-left: 30px;
+    margin-bottom: 16px;
+
+    color: var(--primary-text-color);
+}
+
+.price-box__standart-value {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.2;
+
+    margin-left: 30px;
+    margin-bottom: 4px;
+
+    color: var(--header-color);
+}
+
+.price-box__standart-location {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.4;
+
+    margin-left: 30px;
+    margin-bottom: 40px;
+
+    color: var(--color-of-cards);
+}
+
+.price-box__standart-option {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+
+    margin-left: 30px;
+    margin-bottom: 16px;
+
+    color: var(--header-color);
+}
+
+.price-box__standart-option:last-child {
+    margin-bottom: 32px;
+}
+
+.price-box__standart-additional {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.4;
+
+    margin-left: 30px;
+    margin-bottom: 12px;
+
+    text-align: center;
+
+    color: var(--header-color);
+}
+
+.price-box__standart-additional-option {
+    margin-bottom: 52px;
+}
+
+.price-box__standart-additional-help {
+    display: inline-block;
+    width: 108px;
+    height: 40px;
+    padding: 6px 5px;
+
+    background: var(--body-background-color);
+    border: 1px solid #C2C2C2;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.2;
+
+    text-align: center;
+
+    color: var(--header-color);
+}
+
+.price-box__standart-additional-visagiste {
+    display: inline-block;
+    width: 82px;
+    height: 40px;
+    padding: 6px 8px;
+
+    background: var(--body-background-color);
+    border: 1px solid #C2C2C2;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.2;
+
+    text-align: center;
+
+    color: var(--header-color);
+}
+
+.price-box__standart-additional-retouch {
+    display: inline-block;
+    width: 170px;
+    height: 40px;
+    padding: 6px;
+
+    background: var(--body-background-color);
+    border: 1px solid #C2C2C2;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.2;
+
+    text-align: center;
+
+    color: var(--header-color);
+}
+
+.price-box__maxi {
+    outline: 2px solid #2b1abe;
+    width: 398px;
+    padding-top: 48px;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-bottom: 42px;
+    border-radius: 16px;
+
+    background-color: #F5D9C6;
+    background-image: url("../images/price/maxi-duoble-circules.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.price-box__maxi-type {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+
+    margin-left: 30px;
+    margin-bottom: 16px;
+
+    color: var(--primary-text-color);
+}
+
+.price-box__maxi-value {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.2;
+
+    margin-left: 30px;
+    margin-bottom: 4px;
+
+    color: var(--header-color);
+}
+
+.price-box__maxi-location {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.4;
+
+    margin-left: 30px;
+    margin-bottom: 40px;
+
+    color: var(--color-of-cards);
+}
+
+.price-box__maxi-option {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+
+    margin-left: 30px;
+    margin-bottom: 16px;
+
+    color: var(--header-color);
+}
+
+.price-box__maxi-option:last-child {
+    margin-bottom: 28px;
+}
+
+.price-box__maxi-additional {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+
+    margin-bottom: 12px;
+
+    color: var(--header-color);
+}
+
+.price-box__maxi-additional-retouch {
+    display: inline-block;
+    width: 170px;
+    height: 40px;
+    padding: 6px;
+    /* margin: 0 auto; */
+
+    background: var(--body-background-color);
+    border: 1px solid #C2C2C2;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.2;
+
+    text-align: center;
+    margin-bottom: 40px;
+
+    color: var(--header-color);
+}
+
+.price-box__maxi-additional-option {
+    display: flex;
+    justify-content: center;
+}
+
+.price-box__maxi-option--last {
+    align-items: flex-start;
+}

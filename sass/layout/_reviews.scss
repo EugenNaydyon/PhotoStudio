@@ -1,0 +1,64 @@
+.reviews {
+    position: relative;
+
+    outline: 4px solid orange;
+    padding-top: 60px;
+    padding-bottom: 86px;
+}
+
+.reviews__head {
+    margin-bottom: 80px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.2;
+
+    color: var(--header-color);
+    text-align: center;
+}
+
+.reviews__list {
+    display: flex;
+}
+
+.reviews__item {
+    outline: 1px solid red;
+    width: 340px;
+    margin-right: 16px;
+}
+
+.reviews__item:last-child {
+    margin-right: 0;
+}
+
+.reviews__item--maria,
+.reviews__item--ruslan {
+    margin-top: 101px;
+}
+
+.reviews__item--sergey {
+    margin-bottom: 101px;
+}
+
+.reviews__addreview {
+    position: absolute;
+    top: 650px;
+    left: 50%;
+    transform: translate(-50%);
+
+    width: 342px;
+    height: 48px;
+
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: var(--body-background-color);
+}

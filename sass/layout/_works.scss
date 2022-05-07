@@ -1,0 +1,17 @@
+.works {
+    outline: 2px solid teal;
+
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.works__head {
+    margin-bottom: 80px;
+
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+
+    color: var(--header-color);
+}
