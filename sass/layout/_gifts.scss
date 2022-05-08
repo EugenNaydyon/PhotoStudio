@@ -1,6 +1,6 @@
 .gifts {
     position: relative;
-    outline: 2px solid yellowgreen;
+
     padding-top: 82px;
     padding-bottom: 92px;
 }
@@ -13,26 +13,13 @@
     z-index: 2;
 }
 
-.gifts__head {
-    margin-bottom: 80px;
-
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 1.2;
-    text-align: center;
-
-    color: var(--header-color);
-}
-
 .gifts__description {
     margin-top: 112px;
     width: 400px;
 }
 
 .gifts__type {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.2;
+    @include font (500, 14px, 16px);
     letter-spacing: 1px;
     text-transform: uppercase;
 
@@ -42,9 +29,7 @@
 }
 
 .gifts__name {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 1.4;
+    @include font (600, 48px, 68px);
     letter-spacing: 1px;
 
     margin-bottom: 52px;
@@ -53,12 +38,9 @@
 }
 
 .gifts__item {
+    @include font (600, 16px, 22px);
     display: flex;
     align-items: center;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.4;
-
     color: var(--primary-text-color);
 
     margin-bottom: 24px;
@@ -77,13 +59,10 @@
 }
 
 .gifts__expiration {
+    @include font (500, 16px, 22px);
     width: 380px;
     margin: 0 auto;
     margin-bottom: 24px;
-
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.4;
 
     text-align: center;
 

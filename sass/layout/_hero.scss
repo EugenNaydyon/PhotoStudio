@@ -1,63 +1,23 @@
 .hero {
-    outline: 2px solid olive;
+    @include paddings(150px, 550px, 80px, 100px);
 
     height: 800px;
     background-image: url("../images/hero/bg_image.png");
     background-size: cover;
-
-    padding-top: 150px;
-    padding-left: 100px;
-    padding-right: 550px;
-    padding-bottom: 80px;
-}
-
-.hero__head {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 66px;
-    line-height: 1.18;
-    letter-spacing: 3.2px;
-
-    margin-bottom: 52px;
-
-    color: var(--secondary-text-color);
 }
 
 .hero__description {
+    @include font (600, 36px, 44px);
     font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 1.2;
-
     margin-bottom: 24px;
 
     color: var(--secondary-text-color);
 }
 
 .hero__text {
+    @include font (500, 16px, 25px);
     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-
     margin-bottom: 32px;
 
     color: var(--secondary-text-color);
-}
-
-.hero__button {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.25;
-
-    text-align: center;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-
-    padding: 22px 28px;
-
-    cursor: pointer;
-
-    color: var(--body-background-color);
 }

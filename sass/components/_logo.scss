@@ -1,0 +1,15 @@
+.logo {
+    display: block;
+    // outline: 1px solid tomato;
+    width: 55px;
+    height: 55px;
+
+    text-align: center;
+
+    padding-top: 16px;
+    margin-right: 102px;
+    border-radius: 50%;
+    border-style: dashed;
+
+    animation: rotateLogo 5000ms linear infinite;
+}

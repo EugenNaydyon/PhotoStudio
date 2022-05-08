@@ -1,6 +1,4 @@
 .location {
-    outline: 2px solid teal;
-
     position: relative;
 
     padding-top: 60px;
@@ -9,17 +7,6 @@
     background-image: url("../images/location/line-location.png");
     background-repeat: no-repeat;
     background-position: 0 10px;
-}
-
-.location__head {
-    margin-bottom: 80px;
-
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
-    text-align: center;
-
-    color: var(--header-color);
 }
 
 .location__list {

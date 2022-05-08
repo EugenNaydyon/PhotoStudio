@@ -1,5 +1,4 @@
 .footer {
-    outline: 2px solid greenyellow;
     padding: 60px 100px;
     background-color: #F2F4F4;
 }
@@ -26,9 +25,7 @@
 }
 
 .footer__menu-item {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.62;
+    @include font (700, 16px, 26px);
     margin-right: 55px;
 
     color: var(--primary-text-color);
@@ -50,20 +47,14 @@
 }
 
 .footer__social {
-    outline: 1px solid black;
     margin-top: 32px;
 }
 
 .footer__social-head {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.75;
+    @include font (500, 16px, 28px);
+    margin-right: 32px;
 
     color: var(--header-color);
-}
-
-.footer__social-head {
-    margin-right: 32px;
 }
 
 .footer__social-icon {

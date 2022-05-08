@@ -1,0 +1,48 @@
+@mixin paddings ($pt, $pr, $pb, $pl) {
+    padding-top: $pt;
+    padding-right: $pr;
+    padding-bottom: $pb;
+    padding-left: $pl;
+    // @include paddings(px, px, px, px);
+}
+
+@mixin font ($fw, $fs, $lh) {
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh/$fs;
+    // @include font (, px, px);
+}
+
+@mixin images($pos: absolute, $t, $l, $trans: transform 250ms linear) {
+    position: $pos;
+    top: $t;
+    left: $l;
+    transition: $trans;
+    // @include images (absolute, $t, $l, transform 250ms linear);
+}
+
+@mixin img-text($pos: absolute, $l, $t, $col: var(--body-background-color), $trans: transform 250ms linear) {
+    position: $pos;
+    left: $l;
+    top: $t;
+    color: $col;
+    transition: $trans;
+    // @include img-text(absolute, px, px, var(--body-background-color), transform 250ms linear);
+}
+
+@mixin workstages-block($bor: 2px solid #E97522, $pos: absolute, $br: 10px, $w: 348px, $h: 190px, $pt: 39px, $pr: 39px, $pb: 51px, $pl: 40px, $top, $left, $bgc: var(--body-background-color), $z: 2) {
+    border: $bor;
+    position: $pos;
+    border-radius: $br;
+    width: $w;
+    height: $h;
+    padding-top: $pt;
+    padding-right: $pr;
+    padding-bottom: $pb;
+    padding-left: $pl;
+    top: $top;
+    left: $left;
+    background-color: $bgc;
+    z-index: $z;
+    // @include workstages-block(2px solid #E97522, absolute, 10px, 348px, 190px, 39px, 39px, 51px, 40px, ...px, ...px, var(--body-background-color), 2);
+}

@@ -1,22 +1,6 @@
 .photoshoot {
-    outline: 2px solid green;
-    padding-top: 60px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 40px;
-
+    @include paddings(60px, 100px, 40px, 100px);
     background-color: #F2F4F4;
-}
-
-.photoshoot__head {
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 1.2;
-    text-align: center;
-
-    color: var(--header-color);
-
-    margin-bottom: 32px;
 }
 
 .bottom-arrow {

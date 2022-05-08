@@ -3,3 +3,119 @@
     margin: 0 0;
 }
 
+.design__head {
+    @include font (700, 36px, 44px);
+    margin-bottom: 80px;
+
+    text-align: center;
+
+    color: var(--header-color);
+}
+
+.gifts__head {
+    @include font (600, 36px, 44px);
+    margin-bottom: 80px;
+
+    text-align: center;
+
+    color: var(--header-color);
+}
+
+.hero__head {
+    @include font (700, 66px, 78px);
+    font-style: normal;
+    letter-spacing: 3.2px;
+
+    margin-bottom: 52px;
+
+    color: var(--secondary-text-color);
+}
+
+.location__head {
+    @include font (700, 36px, 44px);
+    margin-bottom: 80px;
+    text-align: center;
+
+    color: var(--header-color);
+}
+
+.modal-feedback__head {
+    @include font (600, 30px, 36px);
+    margin-bottom: 22px;
+    margin-top: 0;
+
+    text-align: center;
+
+    color: var(--primary-text-color);
+}
+
+.modal-thank__head {
+    margin-bottom: 24px;
+
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.2;
+
+    text-align: center;
+
+    color: var(--primary-text-color);
+}
+
+.photographic__head {
+    @include font (600, 36px, 44px);
+    text-align: center;
+
+    color: var(--header-color);
+
+    margin-bottom: 32px;
+}
+
+.photoshoot__head {
+    @include font (600, 36px, 44px);
+    text-align: center;
+
+    color: var(--header-color);
+
+    margin-bottom: 32px;
+}
+
+.price__head {
+    @include font (700, 36px, 44px);
+    text-align: center;
+
+    margin-bottom: 80px;
+
+    color: var(--header-color);
+}
+
+.reviews__head {
+    @include font (600, 36px, 44px);
+    margin-bottom: 80px;
+
+    color: var(--header-color);
+    text-align: center;
+}
+
+.services__head {
+    @include font (700, 36px, 44px);
+    margin-bottom: 80px;
+    text-align: center;
+
+    color: var(--header-color);
+}
+
+.works__head {
+    @include font (600, 36px, 44px);
+    margin-bottom: 80px;
+    text-align: center;
+
+    color: var(--header-color);
+}
+
+.workstages__head {
+    @include font (600, 36px, 44px);
+    margin-bottom: 97px;
+    text-align: center;
+
+    color: var(--header-color);
+}

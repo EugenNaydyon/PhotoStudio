@@ -1,4 +1,5 @@
 .modal-feedback {
+    @include paddings(60px, 40px, 54px, 34px);
     display: flex;
     position: absolute;
     top: 50%;
@@ -8,10 +9,6 @@
     width: 1033px;
     height: 559px;
     border-radius: 15px;
-    padding-top: 60px;
-    padding-bottom: 54px;
-    padding-left: 34px;
-    padding-right: 40px;
 
     background-color: var(--body-background-color);
 }
@@ -21,26 +18,10 @@
 }
 
 .modal-feedback__form {
-    /* display: flex;
-    flex-direction: column; */
     margin-bottom: 6px;
     margin-left: 25px;
 
     width: 479px;
-    /* height: 439px; */
-    outline: 1px solid tomato;
-}
-
-.modal-feedback__head {
-    margin-bottom: 22px;
-    margin-top: 0;
-
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 1.2;
-    text-align: center;
-
-    color: var(--primary-text-color);
 }
 
 .modal-feedback__block {
@@ -97,26 +78,10 @@
     fill: var(--body-background-color);
 }
 
-.modal-feedback__close-button {
-    display: flex;
-    position: absolute;
-    top: -37px;
-    right: 0;
 
-    width: 30px;
-    height: 30px;
-    padding: 0;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
-
-    background: none;
-    border: none;
-
-    cursor: pointer;
-}
 
 .modal-thank {
+    @include paddings(88px, 83px, 89px, 83px);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -125,27 +90,11 @@
     width: 622px;
     height: 331px;
     border-radius: 15px;
-    padding-top: 88px;
-    padding-bottom: 89px;
-    padding-left: 83px;
-    padding-right: 83px;
 
     background-color: var(--body-background-color);
     background-image: url("../images/modals/topright-bigcircule.png"), url("../images/modals/topright-smallcircule.png"), url("../images/modals/bottomleft-bigcircule.png"), url("../images/modals/bottomleft-smallcircule.jpg");
     background-position: top right, left 551.31px top 74.61px, left bottom, left 14.56px bottom;
     background-repeat: no-repeat;
-}
-
-.modal-thank__head {
-    margin-bottom: 24px;
-
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 1.2;
-
-    text-align: center;
-
-    color: var(--primary-text-color);
 }
 
 .modal-thank__text {
