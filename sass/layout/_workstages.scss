@@ -10,23 +10,23 @@
     background-position: center;
 
     &__box-firts {
-            @include workstages-block(2px solid #E97522, absolute, 10px, 348px, 190px, 39px, 39px, 51px, 40px, 218px, 112px, var(--body-background-color), 2);
+            @include workstages-block(218px, 112px, 2px solid #E97522, absolute, 10px, 348px, 190px, 39px, 39px, 51px, 40px, var(--body-background-color), 2);
         }
 
     &__box-second {
-            @include workstages-block(2px solid #E97522, absolute, 10px, 348px, 190px, 39px, 39px, 51px, 40px, 275px, 733px, var(--body-background-color), 2);
+            @include workstages-block(275px, 733px, 2px solid #E97522, absolute, 10px, 348px, 190px, 39px, 39px, 51px, 40px, var(--body-background-color), 2);
         }
 
     &__box-third {
-        @include workstages-block(2px solid #E97522, absolute, 10px, 348px, 190px, 39px, 39px, 51px, 40px, 577px, 984px, var(--body-background-color), 2);
+        @include workstages-block(577px, 984px, 2px solid #E97522, absolute, 10px, 348px, 190px, 39px, 39px, 51px, 40px, var(--body-background-color), 2);
         }
 
     &__box-fourth {
-        @include workstages-block(2px solid #E97522, absolute, 10px, 348px, 190px, 39px, 39px, 51px, 40px, 572px, 274px, var(--body-background-color), 2);
+        @include workstages-block(572px, 274px, 2px solid #E97522, absolute, 10px, 348px, 190px, 39px, 39px, 51px, 40px, var(--body-background-color), 2);
         }
 
     &__box-fifth {
-        @include workstages-block(2px solid #E97522, absolute, 10px, 348px, 190px, 39px, 39px, 51px, 40px, 854px, 638px, var(--body-background-color), 2);
+        @include workstages-block(854px, 638px, 2px solid #E97522, absolute, 10px, 348px, 190px, 39px, 39px, 51px, 40px, var(--body-background-color), 2);
         }
 }
 

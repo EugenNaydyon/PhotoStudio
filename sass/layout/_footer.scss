@@ -1,57 +1,66 @@
 .footer {
     padding: 60px 100px;
     background-color: #F2F4F4;
+
+    &__menu-list {
+            display: flex;
+            align-items: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #B1B1B1;
+        }
+
+        &__social-list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__menu-item {
+            @include font (700, 16px, 26px);
+            margin-right: 55px;
+        
+            color: var(--primary-text-color);
+        
+            transition: transform 250ms linear;
+        }
+
+        &__menu-item:hover {
+            transform: scale(1.2);
+        }
+
+        &__menu-item:last-child {
+            margin-right: 0;
+        }
+
+        &__menu-item--marginleft {
+            margin-left: 0;
+        }
+
+        &__social {
+            margin-top: 32px;
+        }
+
+        &__social-head {
+            @include font (500, 16px, 28px);
+            margin-right: 32px;
+        
+            color: var(--header-color);
+        }
+
+        &__social-icon {
+            margin-right: 24px;
+        }
+
+        &__social-icon:last-child {
+            margin-right: 0;
+        }
+        
+        &__navigation {
+            @extend %margin-auto;
+        }
 }
 
-.footer__menu-list {
-    display: flex;
-    align-items: center;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #B1B1B1;
-}
 
-.footer__social-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer__menu-item {
-    @include font (700, 16px, 26px);
-    margin-right: 55px;
-
-    color: var(--primary-text-color);
-
-    transition: transform 250ms linear;
-}
-
-.footer__menu-item:hover {
-    transform: scale(1.2);
-}
-
-
-.footer__menu-item:last-child {
-    margin-right: 0;
-}
-
-.footer__menu-item--marginleft {
-    margin-left: 0;
-}
-
-.footer__social {
-    margin-top: 32px;
-}
-
-.footer__social-head {
-    @include font (500, 16px, 28px);
-    margin-right: 32px;
-
-    color: var(--header-color);
-}
-
-.footer__social-icon {
-    margin-right: 24px;
-}
 
 .instagram,
 .facebook,
@@ -68,8 +77,4 @@
 .telegram:hover {
     fill: var(--accent-color);
     transform: scale(1.2);
-}
-
-.footer__social-icon:last-child {
-    margin-right: 0;
 }

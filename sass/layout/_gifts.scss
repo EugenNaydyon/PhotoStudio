@@ -3,73 +3,72 @@
 
     padding-top: 82px;
     padding-bottom: 92px;
-}
 
-.gifts__line-img {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    &__line-img {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+    
+            z-index: 2;
+        }
 
-    z-index: 2;
-}
+    &__description {
+        margin-top: 112px;
+        width: 400px;
+    }
 
-.gifts__description {
-    margin-top: 112px;
-    width: 400px;
-}
+    &__type {
+        @include font (500, 14px, 16px);
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    
+        margin-bottom: 8px;
+    
+        color: var(--color-of-certificat);
+    }
 
-.gifts__type {
-    @include font (500, 14px, 16px);
-    letter-spacing: 1px;
-    text-transform: uppercase;
+    &__name {
+        @include font (600, 48px, 68px);
+        letter-spacing: 1px;
+        margin-bottom: 52px;
+    
+        color: var(--primary-text-color);
+    }
 
-    margin-bottom: 8px;
+    &__item {
+        @include font (600, 16px, 22px);
+        display: flex;
+        align-items: center;
+        color: var(--primary-text-color);
+    
+        margin-bottom: 24px;
+    }
 
-    color: var(--color-of-certificat);
-}
+    &__item:last-child {
+        margin-bottom: 0;
+    }
 
-.gifts__name {
-    @include font (600, 48px, 68px);
-    letter-spacing: 1px;
+    &__purchase {
+        margin-left: auto;
+    }
 
-    margin-bottom: 52px;
+    &__expiration {
+        @include font (500, 16px, 22px);
+        width: 380px;
+        margin: 0 auto;
+        margin-bottom: 24px;
+    
+        text-align: center;
+    
+        color: var(--header-color);
+    }
 
-    color: var(--primary-text-color);
-}
-
-.gifts__item {
-    @include font (600, 16px, 22px);
-    display: flex;
-    align-items: center;
-    color: var(--primary-text-color);
-
-    margin-bottom: 24px;
-}
-
-.gifts__item:last-child {
-    margin-bottom: 0;
+    &__img {
+        position: relative;
+        z-index: 3;
+    }
 }
 
 .icon-check {
     margin-right: 16px;
-}
-
-.gifts__purchase {
-    margin-left: auto;
-}
-
-.gifts__expiration {
-    @include font (500, 16px, 22px);
-    width: 380px;
-    margin: 0 auto;
-    margin-bottom: 24px;
-
-    text-align: center;
-
-    color: var(--header-color);
-}
-
-.gifts__img {
-    position: relative;
-    z-index: 3;
 }

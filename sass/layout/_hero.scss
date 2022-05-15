@@ -4,20 +4,20 @@
     height: 800px;
     background-image: url("../images/hero/bg_image.png");
     background-size: cover;
-}
 
-.hero__description {
-    @include font (600, 36px, 44px);
-    font-style: normal;
-    margin-bottom: 24px;
+    &__description {
+        @include font (600, 36px, 44px);
+        font-style: normal;
+        margin-bottom: 24px;
+    
+        color: var(--secondary-text-color);
+    }
 
-    color: var(--secondary-text-color);
-}
-
-.hero__text {
-    @include font (500, 16px, 25px);
-    font-style: normal;
-    margin-bottom: 32px;
-
-    color: var(--secondary-text-color);
+    &__text {
+        @include font (500, 16px, 25px);
+        font-style: normal;
+        margin-bottom: 32px;
+    
+        color: var(--secondary-text-color);
+    }
 }

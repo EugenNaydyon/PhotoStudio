@@ -4,7 +4,7 @@
     padding-bottom: 80px;
 
     &__img-lovestory {
-        @include images (absolute, 183px, 100px, transform 250ms linear);
+        @include images (183px, 100px, absolute, transform 250ms linear);
 
         .service-img-container:hover & {
             transform: scale(1.1);
@@ -13,7 +13,7 @@
 
     &__text-lovestory {
         @include font (600, 16px, 20px);
-        @include img-text(absolute, 132px, 482px, var(--body-background-color), transform 250ms linear);
+        @include img-text(132px, 482px, absolute, var(--body-background-color), transform 250ms linear);
 
         .service-img-container:hover & {
             transform: scale(1.1);
@@ -21,7 +21,7 @@
     }
 
     &__img-teenager {
-        @include images (absolute, 183px, 526px, transform 250ms linear);
+        @include images (183px, 526px, absolute, transform 250ms linear);
 
         .service-img-container:hover & {
                 transform: scale(1.1);
@@ -30,7 +30,7 @@
 
     &__text-teenager {
         @include font (600, 16px, 20px);
-        @include img-text(absolute, 558px, 852px, var(--body-background-color), transform 250ms linear);
+        @include img-text(558px, 852px, absolute, var(--body-background-color), transform 250ms linear);
     
         .service-img-container:hover & {
             transform: scale(1.1);
@@ -39,7 +39,7 @@
     }
 
     &__img-pair {
-        @include images (absolute, 183px, 948px, transform 250ms linear);
+        @include images (183px, 948px, absolute, transform 250ms linear);
 
         .service-img-container:hover & {
                 transform: scale(1.1);
@@ -48,7 +48,7 @@
 
     &__text-pair {
         @include font (600, 16px, 20px);
-        @include img-text(absolute, 980px, 482px, var(--body-background-color), transform 250ms linear);
+        @include img-text(980px, 482px, absolute, var(--body-background-color), transform 250ms linear);
     
         .service-img-container:hover & {
             transform: scale(1.1);
@@ -56,7 +56,7 @@
     }
 
     &__img-boy {
-        @include images (absolute, 553px, 100px, transform 250ms linear);
+        @include images (553px, 100px, absolute, transform 250ms linear);
 
         .service-img-container:hover & {
                 transform: scale(1.1);
@@ -65,7 +65,7 @@
 
     &__text-boy {
         @include font (600, 16px, 20px);
-        @include img-text(absolute, 133px, 852px, var(--body-background-color), transform 250ms linear);
+        @include img-text(133px, 852px, absolute, var(--body-background-color), transform 250ms linear);
     
         .service-img-container:hover & {
             transform: scale(1.1);
@@ -73,7 +73,7 @@
     }
 
     &__img-family {
-        @include images (absolute, 553px, 948px, transform 250ms linear);
+        @include images (553px, 948px, absolute, transform 250ms linear);
 
         .service-img-container:hover & {
                 transform: scale(1.1);
@@ -82,7 +82,7 @@
 
     &__text-family {
         @include font (600, 16px, 20px);
-        @include img-text(absolute, 980px, 1220px, var(--body-background-color), transform 250ms linear);
+        @include img-text (980px, 1220px, absolute, var(--body-background-color), transform 250ms linear);
     
         .service-img-container:hover & {
             transform: scale(1.1);
@@ -90,7 +90,7 @@
     }
 
     &__img-group {
-        @include images (absolute, 921px, 100px, transform 250ms linear);
+        @include images (921px, 100px, absolute, transform 250ms linear);
 
         .service-img-container:hover & {
                 transform: scale(1.1);
@@ -99,7 +99,7 @@
 
     &__text-group {
         @include font (600, 16px, 20px);
-        @include img-text(absolute, 132px, 1589px, var(--body-background-color), transform 250ms linear);
+        @include img-text (132px, 1589px, absolute, var(--body-background-color), transform 250ms linear);
     
         .service-img-container:hover & {
             transform: scale(1.1);
@@ -107,7 +107,7 @@
     }
 
     &__img-lookbook {
-        @include images (absolute, 921px, 524px, transform 250ms linear);
+        @include images (921px, 524px, absolute, transform 250ms linear);
 
         .service-img-container:hover & {
                 transform: scale(1.1);
@@ -116,7 +116,7 @@
 
     &__text-lookbook {
         @include font (600, 16px, 20px);
-        @include img-text(absolute, 556px, 1220px, var(--body-background-color), transform 250ms linear);
+        @include img-text (556px, 1220px, absolute, var(--body-background-color), transform 250ms linear);
     
         .service-img-container:hover & {
             transform: scale(1.1);
@@ -124,7 +124,7 @@
     }
 
     &__img-girls {
-        @include images (absolute, 1290px, 524px, transform 250ms linear);
+        @include images (1290px, 524px, absolute, transform 250ms linear);
 
         .service-img-container:hover & {
                 transform: scale(1.1);
@@ -133,7 +133,7 @@
 
     &__text-girls {
         @include font (600, 16px, 20px);
-        @include img-text(absolute, 556px, 1589px, var(--body-background-color), transform 250ms linear);
+        @include img-text (556px, 1589px, absolute, var(--body-background-color), transform 250ms linear);
     
         .service-img-container:hover & {
             transform: scale(1.1);
@@ -141,7 +141,7 @@
     }
 
     &__img-pregnant {
-        @include images (absolute, 1659px, 100px, transform 250ms linear);
+        @include images (1659px, 100px, absolute, transform 250ms linear);
 
         .service-img-container:hover & {
                 transform: scale(1.1);
@@ -150,7 +150,7 @@
 
     &__text-pregnant {
         @include font (600, 16px, 20px);
-        @include img-text(absolute, 132px, 1958px, var(--body-background-color), transform 250ms linear);
+        @include img-text(132px, 1958px, absolute, var(--body-background-color), transform 250ms linear);
     
         .service-img-container:hover & {
             transform: scale(1.1);
@@ -158,7 +158,7 @@
     }
 
     &__img-with-animals {
-        @include images (absolute, 1659px, 524px, transform 250ms linear);
+        @include images (1659px, 524px, absolute, transform 250ms linear);
 
         .service-img-container:hover & {
                 transform: scale(1.1);
@@ -167,7 +167,7 @@
 
     &__text-with-animals {
         @include font (600, 16px, 20px);
-        @include img-text(absolute, 556px, 1958px, var(--body-background-color), transform 250ms linear);
+        @include img-text(556px, 1958px, absolute, var(--body-background-color), transform 250ms linear);
     
         .service-img-container:hover & {
             transform: scale(1.1);
@@ -175,7 +175,7 @@
     }
 
     &__img-bussiness-style {
-        @include images (absolute, 1659px, 949px, transform 250ms linear);
+        @include images (1659px, 949px, absolute, transform 250ms linear);
 
         .service-img-container:hover & {
                 transform: scale(1.1);
@@ -184,7 +184,7 @@
 
     &__text-bussiness-style {
         @include font (600, 16px, 20px);
-        @include img-text(absolute, 981px, 1958px, var(--body-background-color), transform 250ms linear);
+        @include img-text (981px, 1958px, absolute, var(--body-background-color), transform 250ms linear);
     
         .service-img-container:hover & {
             transform: scale(1.1);

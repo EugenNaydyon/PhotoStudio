@@ -13,24 +13,26 @@
     // @include font (, px, px);
 }
 
-@mixin images($pos: absolute, $t, $l, $trans: transform 250ms linear) {
-    position: $pos;
+@mixin images($t, $l, $pos: absolute, $trans: transform 250ms linear) {
     top: $t;
     left: $l;
+    position: $pos;
     transition: $trans;
     // @include images (absolute, $t, $l, transform 250ms linear);
 }
 
-@mixin img-text($pos: absolute, $l, $t, $col: var(--body-background-color), $trans: transform 250ms linear) {
-    position: $pos;
+@mixin img-text($l, $t, $pos: absolute, $col: var(--body-background-color), $trans: transform 250ms linear) {
     left: $l;
     top: $t;
+    position: $pos;
     color: $col;
     transition: $trans;
     // @include img-text(absolute, px, px, var(--body-background-color), transform 250ms linear);
 }
 
-@mixin workstages-block($bor: 2px solid #E97522, $pos: absolute, $br: 10px, $w: 348px, $h: 190px, $pt: 39px, $pr: 39px, $pb: 51px, $pl: 40px, $top, $left, $bgc: var(--body-background-color), $z: 2) {
+@mixin workstages-block ($top, $left, $bor: 2px solid #E97522, $pos: absolute, $br: 10px, $w: 348px, $h: 190px, $pt: 39px, $pr: 39px, $pb: 51px, $pl: 40px, $bgc: var(--body-background-color), $z: 2) {
+    top: $top;
+    left: $left;
     border: $bor;
     position: $pos;
     border-radius: $br;
@@ -40,9 +42,13 @@
     padding-right: $pr;
     padding-bottom: $pb;
     padding-left: $pl;
-    top: $top;
-    left: $left;
     background-color: $bgc;
     z-index: $z;
     // @include workstages-block(2px solid #E97522, absolute, 10px, 348px, 190px, 39px, 39px, 51px, 40px, ...px, ...px, var(--body-background-color), 2);
+}
+
+@mixin margins ($ml:30px, $mb:16px) {
+    margin-left: $ml;
+    margin-bottom: $mb;
+    // @include margins (px, px);
 }

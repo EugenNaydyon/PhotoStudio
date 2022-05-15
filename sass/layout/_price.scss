@@ -8,325 +8,311 @@
 .price-box {
     display: flex;
     align-items: center;
-}
 
-.price-box__mini {
-    @include paddings(48px, 14px, 42px, 14px);
-    width: 398px;
-    height: 100%;
+    &__mini {
+        @include paddings(48px, 14px, 42px, 14px);
+        width: 398px;
+        height: 100%;
+    
+        border-radius: 16px;
+        margin-right: 22px;
+    
+        background-color: #F2F4F4;
+        background-image: url("../images/price/double-circules.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
 
-    border-radius: 16px;
-    margin-right: 22px;
+    &__mini-type {
+        @include font (600, 18px, 22px);
+        @include margins ();
+    
+        color: var(--primary-text-color);
+    }
 
-    background-color: #F2F4F4;
-    background-image: url("../images/price/double-circules.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-}
+    &__mini-value {
+        @include font (700, 56px, 67px);
+        @include margins ($mb: 4px);
+    
+        color: var(--header-color);
+    }
 
-.price-box__mini-type {
-    @include font (600, 18px, 22px);
-    margin-left: 30px;
-    margin-bottom: 16px;
+    &__mini-location {
+        @include font (600, 14px, 20px);
+        @include margins ($mb: 40px);
+    
+        color: var(--color-of-cards);
+    }
 
-    color: var(--primary-text-color);
-}
+    &__mini-option {
+        @include font (500, 16px, 22px);
+        @include margins ();
+        display: flex;
+        align-items: center;
+    
+        color: var(--header-color);
 
-.price-box__mini-value {
-    @include font (700, 56px, 67px);
-    margin-left: 30px;
-    margin-bottom: 4px;
+        &:last-child {
+                margin-bottom: 32px;
+            }
+    }
 
-    color: var(--header-color);
-}
+    &__mini-additional {
+        @include font (600, 16px, 22px);
+        text-align: center;
+    
+        margin-bottom: 12px;
+    
+        color: var(--header-color);
+    }
 
-.price-box__mini-location {
-    @include font (600, 14px, 20px);
-    margin-left: 30px;
-    margin-bottom: 40px;
+    &__mini-additional-option {
+        margin-bottom: 52px;
+    }
 
-    color: var(--color-of-cards);
-}
+    &__mini-additional-help {
+        @include font (500, 12px, 14px);
+        display: inline-block;
+        width: 108px;
+        height: 40px;
+        padding: 6px 5px;
+    
+        background: var(--body-background-color);
+        border: 1px solid #C2C2C2;
+        box-sizing: border-box;
+        border-radius: 5px;
+    
+        text-align: center;
+    
+        color: var(--header-color);
+    }
 
-.price-box__mini-option {
-    @include font (500, 16px, 22px);
-    display: flex;
-    align-items: center;
+    &__mini-additional-visagiste {
+        @include font (500, 12px, 14px);
+        display: inline-block;
+        width: 82px;
+        height: 40px;
+        padding: 6px 8px;
+    
+        background: var(--body-background-color);
+        border: 1px solid #C2C2C2;
+        box-sizing: border-box;
+        border-radius: 5px;
+    
+        text-align: center;
+    
+        color: var(--header-color);
+    }
 
-    margin-left: 30px;
-    margin-bottom: 16px;
+    &__mini-additional-retouch {
+        @include font (500, 12px, 14px);
+        display: inline-block;
+        width: 170px;
+        height: 40px;
+        padding: 6px;
+    
+        background: var(--body-background-color);
+        border: 1px solid #C2C2C2;
+        box-sizing: border-box;
+        border-radius: 5px;
+    
+        text-align: center;
+    
+        color: var(--header-color);
+    }
 
-    color: var(--header-color);
+    &__standart {
+        @include paddings(48px, 14px, 42px, 14px);
+        width: 398px;
+        height: 100%;
+    
+        border-radius: 16px;
+        margin-right: 22px;
+    
+        background-color: #F9F4EE;
+        background-image: url("../images/price/double-circules.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+
+    &__standart-type {
+        @include font (600, 18px, 22px);
+        @include margins ();
+    
+        color: var(--primary-text-color);
+    }
+
+    &__standart-value {
+        @include font (700, 56px, 68px);
+        @include margins ($mb: 4px);
+    
+        color: var(--header-color);
+    }
+
+    &__standart-location {
+        @include font (600, 14px, 20px);
+        @include margins ($mb: 40px);
+    
+        color: var(--color-of-cards);
+    }
+
+    &__standart-option {
+        @include font (500, 16px, 22px);
+        @include margins ();
+        display: flex;
+        align-items: center;
+        
+        color: var(--header-color);
+        
+        &:last-child {
+        margin-bottom: 32px;
+        }
+    }
+
+    &__standart-additional {
+        @include font (600, 16px, 22px);
+        @include margins ($mb: 12px);
+    
+        text-align: center;
+    
+        color: var(--header-color);
+    }
+
+    &__standart-additional-option {
+        margin-bottom: 52px;
+    }
+
+    &__standart-additional-help {
+        @include font (500, 12px, 14px);
+        display: inline-block;
+        width: 108px;
+        height: 40px;
+        padding: 6px 5px;
+    
+        background: var(--body-background-color);
+        border: 1px solid #C2C2C2;
+        box-sizing: border-box;
+        border-radius: 5px;
+        text-align: center;
+    
+        color: var(--header-color);
+    }
+
+    &__standart-additional-visagiste {
+        @include font (500, 12px, 14px);
+        display: inline-block;
+        width: 82px;
+        height: 40px;
+        padding: 6px 8px;
+    
+        background: var(--body-background-color);
+        border: 1px solid #C2C2C2;
+        box-sizing: border-box;
+        border-radius: 5px;
+        text-align: center;
+    
+        color: var(--header-color);
+    }
+
+    &__standart-additional-retouch {
+        @include font (500, 12px, 14px);
+        display: inline-block;
+        width: 170px;
+        height: 40px;
+        padding: 6px;
+    
+        background: var(--body-background-color);
+        border: 1px solid #C2C2C2;
+        box-sizing: border-box;
+        border-radius: 5px;
+    
+        text-align: center;
+    
+        color: var(--header-color);
+    }
+
+    &__maxi {
+        @include paddings(48px, 14px, 42px, 14px);
+        width: 398px;
+        border-radius: 16px;
+    
+        background-color: #F5D9C6;
+        background-image: url("../images/price/maxi-duoble-circules.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+
+    &__maxi-type {
+        @include font (600, 18px, 22px);
+        @include margins ();
+    
+        color: var(--primary-text-color);
+    }
+
+    &__maxi-value {
+        @include font (700, 56px, 68px);
+        @include margins ($mb: 4px);
+    
+        color: var(--header-color);
+    }
+
+    &__maxi-location {
+        @include font (600, 14px, 20px);
+        @include margins ($mb: 40px);
+    
+        color: var(--color-of-cards);
+    }
+
+    &__maxi-option {
+        @include font (500, 16px, 22px);
+        @include margins ($mb: 16px);
+        display: flex;
+        align-items: center;
+    
+        color: var(--header-color);
+    }
+
+    &__maxi-option:last-child {
+        margin-bottom: 28px;
+    }
+
+    &__maxi-additional {
+        @include font (600, 16px, 22px);
+        text-align: center;
+    
+        margin-bottom: 12px;
+    
+        color: var(--header-color);
+    }
+
+    &__maxi-additional-retouch {
+        @include font (500, 12px, 14px);
+        display: inline-block;
+        width: 170px;
+        height: 40px;
+        padding: 6px;
+    
+        background: var(--body-background-color);
+        border: 1px solid #C2C2C2;
+        box-sizing: border-box;
+        border-radius: 5px;
+    
+        text-align: center;
+        margin-bottom: 40px;
+    
+        color: var(--header-color);
+    }
+
+    &__maxi-additional-option {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__maxi-option--last {
+        align-items: flex-start;
+    }
 }
 
 .icon-check-price {
     margin-right: 8px;
-}
-
-.price-box__mini-option:last-child {
-    margin-bottom: 32px;
-}
-
-.price-box__mini-additional {
-    @include font (600, 16px, 22px);
-    text-align: center;
-
-    margin-bottom: 12px;
-
-    color: var(--header-color);
-}
-
-.price-box__mini-additional-option {
-    margin-bottom: 52px;
-}
-
-.price-box__mini-additional-help {
-    @include font (500, 12px, 14px);
-    display: inline-block;
-    width: 108px;
-    height: 40px;
-    padding: 6px 5px;
-
-    background: var(--body-background-color);
-    border: 1px solid #C2C2C2;
-    box-sizing: border-box;
-    border-radius: 5px;
-
-    text-align: center;
-
-    color: var(--header-color);
-}
-
-.price-box__mini-additional-visagiste {
-    @include font (500, 12px, 14px);
-    display: inline-block;
-    width: 82px;
-    height: 40px;
-    padding: 6px 8px;
-
-    background: var(--body-background-color);
-    border: 1px solid #C2C2C2;
-    box-sizing: border-box;
-    border-radius: 5px;
-
-    text-align: center;
-
-    color: var(--header-color);
-}
-
-.price-box__mini-additional-retouch {
-    @include font (500, 12px, 14px);
-    display: inline-block;
-    width: 170px;
-    height: 40px;
-    padding: 6px;
-
-    background: var(--body-background-color);
-    border: 1px solid #C2C2C2;
-    box-sizing: border-box;
-    border-radius: 5px;
-
-    text-align: center;
-
-    color: var(--header-color);
-}
-
-.price-box__standart {
-    @include paddings(48px, 14px, 42px, 14px);
-    width: 398px;
-    height: 100%;
-
-    border-radius: 16px;
-    margin-right: 22px;
-
-    background-color: #F9F4EE;
-    background-image: url("../images/price/double-circules.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-}
-
-.price-box__standart-type {
-    @include font (600, 18px, 22px);
-    margin-left: 30px;
-    margin-bottom: 16px;
-
-    color: var(--primary-text-color);
-}
-
-.price-box__standart-value {
-    @include font (700, 56px, 68px);
-    margin-left: 30px;
-    margin-bottom: 4px;
-
-    color: var(--header-color);
-}
-
-.price-box__standart-location {
-    @include font (600, 14px, 20px);
-    margin-left: 30px;
-    margin-bottom: 40px;
-
-    color: var(--color-of-cards);
-}
-
-.price-box__standart-option {
-    @include font (500, 16px, 22px);
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
-    margin-bottom: 16px;
-
-    color: var(--header-color);
-}
-
-.price-box__standart-option:last-child {
-    margin-bottom: 32px;
-}
-
-.price-box__standart-additional {
-    @include font (600, 16px, 22px);
-    margin-left: 30px;
-    margin-bottom: 12px;
-
-    text-align: center;
-
-    color: var(--header-color);
-}
-
-.price-box__standart-additional-option {
-    margin-bottom: 52px;
-}
-
-.price-box__standart-additional-help {
-    @include font (500, 12px, 14px);
-    display: inline-block;
-    width: 108px;
-    height: 40px;
-    padding: 6px 5px;
-
-    background: var(--body-background-color);
-    border: 1px solid #C2C2C2;
-    box-sizing: border-box;
-    border-radius: 5px;
-    text-align: center;
-
-    color: var(--header-color);
-}
-
-.price-box__standart-additional-visagiste {
-    @include font (500, 12px, 14px);
-    display: inline-block;
-    width: 82px;
-    height: 40px;
-    padding: 6px 8px;
-
-    background: var(--body-background-color);
-    border: 1px solid #C2C2C2;
-    box-sizing: border-box;
-    border-radius: 5px;
-    text-align: center;
-
-    color: var(--header-color);
-}
-
-.price-box__standart-additional-retouch {
-    @include font (500, 12px, 14px);
-    display: inline-block;
-    width: 170px;
-    height: 40px;
-    padding: 6px;
-
-    background: var(--body-background-color);
-    border: 1px solid #C2C2C2;
-    box-sizing: border-box;
-    border-radius: 5px;
-
-    text-align: center;
-
-    color: var(--header-color);
-}
-
-.price-box__maxi {
-    @include paddings(48px, 14px, 42px, 14px);
-    width: 398px;
-    border-radius: 16px;
-
-    background-color: #F5D9C6;
-    background-image: url("../images/price/maxi-duoble-circules.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-}
-
-.price-box__maxi-type {
-    @include font (600, 18px, 22px);
-    margin-left: 30px;
-    margin-bottom: 16px;
-
-    color: var(--primary-text-color);
-}
-
-.price-box__maxi-value {
-    @include font (700, 56px, 68px);
-    margin-left: 30px;
-    margin-bottom: 4px;
-
-    color: var(--header-color);
-}
-
-.price-box__maxi-location {
-    @include font (600, 14px, 20px);
-    margin-left: 30px;
-    margin-bottom: 40px;
-
-    color: var(--color-of-cards);
-}
-
-.price-box__maxi-option {
-    @include font (500, 16px, 22px);
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
-    margin-bottom: 16px;
-
-    color: var(--header-color);
-}
-
-.price-box__maxi-option:last-child {
-    margin-bottom: 28px;
-}
-
-.price-box__maxi-additional {
-    @include font (600, 16px, 22px);
-    text-align: center;
-
-    margin-bottom: 12px;
-
-    color: var(--header-color);
-}
-
-.price-box__maxi-additional-retouch {
-    @include font (500, 12px, 14px);
-    display: inline-block;
-    width: 170px;
-    height: 40px;
-    padding: 6px;
-
-    background: var(--body-background-color);
-    border: 1px solid #C2C2C2;
-    box-sizing: border-box;
-    border-radius: 5px;
-
-    text-align: center;
-    margin-bottom: 40px;
-
-    color: var(--header-color);
-}
-
-.price-box__maxi-additional-option {
-    display: flex;
-    justify-content: center;
-}
-
-.price-box__maxi-option--last {
-    align-items: flex-start;
 }
