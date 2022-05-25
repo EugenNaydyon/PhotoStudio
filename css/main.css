@@ -1,4 +1,4 @@
-.location__button, .modal-feedback__button, .footer__navigation {
+.container, .location__button, .modal-feedback__button, .footer__navigation {
   margin-right: auto;
   margin-left: auto;
 }
@@ -23,6 +23,14 @@
   }
 }
 
+.body {
+  background-color: var(--body-background-color);
+  color: --primary-text-color;
+  font-family: var(--main-font);
+  font-style: Medium;
+  font-weight: 500;
+}
+
 .list {
   list-style: none;
 }
@@ -35,6 +43,30 @@ p,
 ul {
   margin: 0 0;
   padding: 0 0;
+}
+
+.container {
+  outline: 2px solid tomato;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 894px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1270px;
+  }
 }
 
 .heads {
