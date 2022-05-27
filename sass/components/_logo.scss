@@ -28,3 +28,24 @@
         animation: rotateLogo 5000ms linear infinite;
     }
 }
+
+.logo {
+    @media screen and (min-width: 1024px) {
+        display: flex;
+        width: 36px;
+        height: 36px;
+        
+        font-size: 8px;
+        font-weight: 700;
+        align-items: center;
+        justify-content: center;
+        
+        // padding-top: 16px;
+        // margin-right: auto;
+        border-radius: 50%;
+        border-style: dashed;
+        
+        animation: rotateLogo 5000ms linear infinite;
+    }
+    
+}

@@ -1,5 +1,5 @@
 .container {
-    outline: 2px solid tomato;
+    outline: 2px solid rgb(72, 173, 62);
     padding-left: 15px;
     padding-right: 15px;
     @extend %margin-auto;
@@ -12,27 +12,23 @@
             .header__nav {
                 display: none;
             }
-        }
+    }
     
-        @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
+            outline: 2px solid rgb(199, 126, 58);
             & {
                 width: 894px;
+                padding-top: 12px;
+                padding-bottom: 12px;
             }
+    }
 
-            .header__nav {
-                display: flex;
+    @media screen and (min-width: 1440px) {
+        outline: 2px solid blue;
+            & {
+                width: 1270px;
             }
-
-            .header-mobile__list {
-                display: none;
-            }
-        }
-    
-    //     @media screen and (min-width: 1440px) {
-    //         & {
-    //             width: 1270px;
-    //         }
-    //     }
+    }
 }
 
 
