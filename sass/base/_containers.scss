@@ -3,26 +3,38 @@
     padding-left: 15px;
     padding-right: 15px;
     @extend %margin-auto;
+
+    @media screen and (min-width: 375px) {
+            & {
+                width: 375px;
+            }
+
+            .header__nav {
+                display: none;
+            }
+        }
+    
+        @media screen and (min-width: 1024px) {
+            & {
+                width: 894px;
+            }
+
+            .header__nav {
+                display: flex;
+            }
+
+            .header-mobile__list {
+                display: none;
+            }
+        }
+    
+    //     @media screen and (min-width: 1440px) {
+    //         & {
+    //             width: 1270px;
+    //         }
+    //     }
 }
 
-@media screen and (min-width: 375px) {
-    .container {
-        width: 375px;
-        // margin: 0 auto;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .container {
-        width: 894px;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .container {
-        width: 1270px;
-    }
-}
 
 // .container {
 //     width: 1240px;

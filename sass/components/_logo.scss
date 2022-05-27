@@ -1,14 +1,30 @@
 .logo {
-    display: block;
-    width: 55px;
-    height: 55px;
+    // display: block;
+    // width: 55px;
+    // height: 55px;
 
-    text-align: center;
+    // text-align: center;
 
-    padding-top: 16px;
-    margin-right: 102px;
-    border-radius: 50%;
-    border-style: dashed;
+    // padding-top: 16px;
+    // margin-right: 102px;
+    // border-radius: 50%;
+    // border-style: dashed;
 
-    animation: rotateLogo 5000ms linear infinite;
+    // animation: rotateLogo 5000ms linear infinite;
+
+    &__mobile {
+        display: flex;
+        width: 25px;
+        height: 25px;
+        
+        font-size: 6px;
+        font-weight: 700;
+        align-items: center;
+        justify-content: center;
+        
+        border-radius: 50%;
+        border: 1px dashed;
+        
+        animation: rotateLogo 5000ms linear infinite;
+    }
 }
