@@ -62,12 +62,12 @@
 .header {
     @media screen and (min-width: 1024px) and (max-width: 1439px) {
         .header__nav {
-                display: flex;
-                align-items: center;
+            display: flex;
+            align-items: center;
         }
         
         &-mobile__list {
-                display: none;
+            display: none;
         }
 
         &-mobile-dropmenu {
@@ -133,38 +133,77 @@
     }
 }
 
+.header {
+    @media screen and (min-width: 1440px) {
+        &-mobile__list, &-mobile-dropmenu__list, &-tablet__list--feedback {
+            display: none;
+        }
 
+        &__list {
+            display: flex;
+            align-items: center;
+
+            &--feedback {
+                display: flex;
+                align-items: center;
+                margin-left: auto;
+            }
+        }
+
+        &__item {
+            display: block;
+            margin-right: 32px;
+
+            @include font (500, 14px, 20px);
+            color: #4A4A4A;
+
+                &:hover {
+                transform: scale(1.2);
+                }
+
+                &:nth-child(6) {
+                    margin-right: 0;
+                }
+
+                &:first-child {
+                    margin-right: 102px;
+                }
+
+                &--feedback:not(:last-child) {
+                    margin-right: 24px;
+                }
+        }
+    }
+}
 
 // .header {
-//     &__list {
-//         display: flex;
-//         align-items: center;
-//     }
 
-//     &__item {
-//         display: block;
-//         margin-right: 32px;
-        
-//         transition: transform 250ms linear;
+//     
 
-//             &:hover {
-//                 transform: scale(1.2);
-//             }
-
-//             &:nth-child(6) {
-//                 margin-right: 0;
-//             }
-//     }
-
-//     &__list--feedback {
-//         margin-left: auto;
-//     }
-
-//     &__item--feedback:not(:last-child) {
-//         margin-right: 24px;
-//     }
 
 //     &__item-tel {
 //         color: var(--primary-text-color);
 //     }
+// }
+
+// &__item {
+//     display: block;
+//     margin-right: 32px;
+//     transition: transform 250ms linear;
+//         &:hover {
+//             transform: scale(1.2);
+//         }
+
+//         &:nth-child(6) {
+//             margin-right: 0;
+//         }
+
+// }
+
+// &__item--feedback:not(:last-child) {
+//     margin-right: 24px;
+// }
+
+// &__item-tel {
+//     color: var(--primary-text-color);
 // }
