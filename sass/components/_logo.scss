@@ -22,8 +22,8 @@
         align-items: center;
         justify-content: center;
         
-        border-radius: 50%;
-        border: 1px dashed;
+        // border-radius: 50%;
+        // border: 1px dashed;
         
         animation: rotateLogo 5000ms linear infinite;
     }
@@ -32,8 +32,8 @@
 .logo {
     @media screen and (min-width: 1024px) {
         display: flex;
-        width: 36px;
-        height: 36px;
+        width: 56px;
+        height: 56px;
         
         font-size: 8px;
         font-weight: 700;
@@ -42,8 +42,8 @@
         
         // padding-top: 16px;
         // margin-right: auto;
-        border-radius: 50%;
-        border-style: dashed;
+        // border-radius: 50%;
+        // border-style: dashed;
         
         animation: rotateLogo 5000ms linear infinite;
     }
