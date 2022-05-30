@@ -1,23 +1,80 @@
-.hero {
-    @include paddings(150px, 550px, 80px, 100px);
+@media screen and (max-width:1023px) {
+    .hero {
+        @include paddings(182px, 25px, 184px, 25px);
+        
+            height: 522px;
+            width: 375px;
+            background-color: aqua;
+            margin: 0 auto;
 
-    height: 800px;
-    background-image: url("../images/hero/bg_image.png");
-    background-size: cover;
+            &__head {
+                @include font (700, 24px, 34px);
+                margin-bottom: 32px;
+                
+                text-align: center;
+                letter-spacing: 1.2px;
+                color: #F5F5F5;
+            }
 
-    &__description {
-        @include font (600, 36px, 44px);
-        font-style: normal;
-        margin-bottom: 24px;
-    
-        color: var(--secondary-text-color);
-    }
-
-    &__text {
-        @include font (500, 16px, 25px);
-        font-style: normal;
-        margin-bottom: 32px;
-    
-        color: var(--secondary-text-color);
+            &__description, &__text {
+                display: none;
+            }
     }
 }
+
+@media screen and (min-width:1024px) and (max-width:1439px) {
+    .hero {
+        @include paddings(70px, 170px, 70px, 80px);
+        
+            height: 611px;
+            width: 1024px;
+            background-color: rgb(44, 123, 197);
+            margin: 0 auto;
+        
+            &__head {
+                @include font (700, 48px, 52px);
+                margin-bottom: 32px;
+                width: 573px;
+
+                letter-spacing: 2.3px;
+                color: var(--secondary-text-color);
+                text-align: left;
+            }
+        
+            &__description {
+                @include font (600, 24px, 34px);
+                width: 488px;
+                font-style: normal;
+                margin-bottom: 15px;
+                color: var(--secondary-text-color);
+            }
+
+            &__text {
+                @include font (500, 16px, 26px);
+                margin-bottom: 32px;
+                color: var(--secondary-text-color);
+            }
+    }
+}
+
+    // @include paddings(150px, 550px, 80px, 100px);
+
+    // height: 800px;
+    // background-image: url("../images/hero/bg_image.png");
+    // background-size: cover;
+
+    // &__description {
+    //     @include font (600, 36px, 44px);
+    //     font-style: normal;
+    //     margin-bottom: 24px;
+    
+    //     color: var(--secondary-text-color);
+    // }
+
+    // &__text {
+    //     @include font (500, 16px, 25px);
+    //     font-style: normal;
+    //     margin-bottom: 32px;
+    
+    //     color: var(--secondary-text-color);
+    // }

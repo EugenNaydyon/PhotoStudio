@@ -5,6 +5,38 @@
     padding: 0px 0px;
 }
 
+@media screen and (max-width:1023px) {
+    .hero__button {
+        @include font (600, 14px, 17px);
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+
+        padding: 20px 28px 24px 28px;
+
+        cursor: pointer;
+        border: none;
+
+        color: var(--body-background-color);
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1439px) {
+    .hero__button {
+            @include font (600, 16px, 20px);
+            text-align: center;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+    
+            padding: 20px 28px 24px 28px;
+    
+            cursor: pointer;
+            border: none;
+    
+            color: var(--body-background-color);
+        }
+}
+
 .header__button {
     padding: 3px 21px;
 
@@ -144,21 +176,7 @@
     border: none;
 }
 
-.hero__button {
-    @include font (600, 16px, 20px);
-    font-style: normal;
 
-    text-align: center;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-
-    padding: 22px 28px;
-
-    cursor: pointer;
-    border: none;
-
-    color: var(--body-background-color);
-}
 
 .modal-feedback__close-button {
     display: flex;

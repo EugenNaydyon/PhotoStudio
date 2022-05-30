@@ -1,17 +1,4 @@
 .logo {
-    // display: block;
-    // width: 55px;
-    // height: 55px;
-
-    // text-align: center;
-
-    // padding-top: 16px;
-    // margin-right: 102px;
-    // border-radius: 50%;
-    // border-style: dashed;
-
-    // animation: rotateLogo 5000ms linear infinite;
-
     &__mobile {
         display: flex;
         width: 25px;
@@ -21,9 +8,6 @@
         font-weight: 700;
         align-items: center;
         justify-content: center;
-        
-        // border-radius: 50%;
-        // border: 1px dashed;
         
         animation: rotateLogo 5000ms linear infinite;
     }
@@ -39,11 +23,6 @@
         font-weight: 700;
         align-items: center;
         justify-content: center;
-        
-        // padding-top: 16px;
-        // margin-right: auto;
-        // border-radius: 50%;
-        // border-style: dashed;
         
         animation: rotateLogo 5000ms linear infinite;
     }
