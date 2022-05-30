@@ -248,6 +248,21 @@ ul {
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .hero__button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 20px 28px 24px 28px;
+    cursor: pointer;
+    border: none;
+    color: var(--body-background-color);
+  }
+}
+
 .header__button {
   padding: 3px 21px;
   position: static;
@@ -609,6 +624,44 @@ ul {
   }
   .hero__text {
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    margin-bottom: 32px;
+    color: var(--secondary-text-color);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    padding-top: 150px;
+    padding-right: 550px;
+    padding-bottom: 140px;
+    padding-left: 100px;
+    height: 860px;
+    width: 1440px;
+    background-image: linear-gradient(to top left, #8b6060, #5a5858);
+    margin: 0 auto;
+  }
+  .hero__head {
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 1.18182;
+    margin-bottom: 52px;
+    width: 880px;
+    letter-spacing: 3.2px;
+    color: var(--secondary-text-color);
+    text-align: left;
+  }
+  .hero__description {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.19444;
+    width: 733px;
+    margin-bottom: 24px;
+    color: var(--secondary-text-color);
+  }
+  .hero__text {
+    font-weight: 600;
     font-size: 16px;
     line-height: 1.625;
     margin-bottom: 32px;

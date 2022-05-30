@@ -57,24 +57,37 @@
     }
 }
 
-    // @include paddings(150px, 550px, 80px, 100px);
+@media screen and (min-width:1440px) {
+    .hero {
+        @include paddings(150px, 550px, 140px, 100px);
 
-    // height: 800px;
-    // background-image: url("../images/hero/bg_image.png");
-    // background-size: cover;
+        height: 860px;
+        width: 1440px;
+        // background: linear-gradient(326deg, rgba(228, 235, 235, 1) 0%, rgba(111, 109, 105, 1) 43%);
+        background-image: linear-gradient(to top left, #8b6060, rgb(90, 88, 88));
+        margin: 0 auto;
 
-    // &__description {
-    //     @include font (600, 36px, 44px);
-    //     font-style: normal;
-    //     margin-bottom: 24px;
-    
-    //     color: var(--secondary-text-color);
-    // }
+        &__head {
+            @include font (700, 66px, 78px);
+            margin-bottom: 52px;
+            width: 880px;
 
-    // &__text {
-    //     @include font (500, 16px, 25px);
-    //     font-style: normal;
-    //     margin-bottom: 32px;
-    
-    //     color: var(--secondary-text-color);
-    // }
+            letter-spacing: 3.2px;
+            color: var(--secondary-text-color);
+            text-align: left;
+        }
+
+        &__description {
+            @include font (600, 36px, 43px);
+            width: 733px;
+            margin-bottom: 24px;
+            color: var(--secondary-text-color);
+        }
+
+        &__text {
+            @include font (600, 16px, 26px);
+            margin-bottom: 32px;
+            color: var(--secondary-text-color);
+        }
+    }
+}

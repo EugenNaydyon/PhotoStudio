@@ -37,6 +37,22 @@
         }
 }
 
+@media screen and (min-width:1440px) {
+    .hero__button {
+        @include font (600, 16px, 20px);
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+
+        padding: 20px 28px 24px 28px;
+
+        cursor: pointer;
+        border: none;
+
+        color: var(--body-background-color);
+    }
+}
+
 .header__button {
     padding: 3px 21px;
 
