@@ -134,13 +134,35 @@
         </section>
         
         <!--WORKS-->
-        <!-- <section class="works">
+        <section class="works">
             <h2 class="works__head heads">Наші роботи</h2>
- 
-            <img src="./images/works/library.jpg" alt="">
+            <div class="works__images">
+                <picture>
+                    <source srcset="./images/works/tablet-lens@1x.jpg, ./images/works/tablet-lens@2x.jpg" media="(min-width: 1024px)">
+                    <source srcset="./images/works/mobile-lens@1x.jpg, ./images/works/mobile-lens@2x.jpg" media="(min-width: 375px)">
+                    <img class="works__img-mobile-lens" src="./images/works/studio.jpg" alt="">
+                </picture>
+                
+                <picture>
+                    <source srcset="./images/works/mobile-library@1x.jpg, ./images/works/mobile-library@2x.jpg"
+                        media="(min-width: 375px)">
+                    <img src="./images/works/library.jpg" alt="">
+                </picture>
+                
+                <picture>
+                    <source srcset="./images/works/mobile-studio@1x.jpg, ./images/works/mobile-studio@2x.jpg"
+                        media="(min-width: 375px)">
+                    <img class="works__img-mobile-studio" src="./images/works/studio.jpg" alt="">
+                </picture>
+
+
+                
+            </div>
+             
+            <!-- <img src="./images/works/library.jpg" alt="">
             <img src="./images/works/lens.jpg" alt="">
-            <img src="./images/works/studio.jpg" alt="">
-        </section> -->
+            <img src="./images/works/studio.jpg" alt=""> -->
+        </section>
         
         <!--LOCATION-->
         <!-- <section class="location">
@@ -745,7 +767,7 @@
         </div> -->
     </div>
 
-    <script>
+    <!-- <script>
         const refs = {
             openModalBtn: document.querySelector("[data-open-modal]"),
             closeModalBtn: document.querySelector("[data-close-modal]"),
@@ -775,8 +797,9 @@
                         );
                     });
         })();
-    </script>
+    </script> -->
 
     <script src="./js/menu.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>

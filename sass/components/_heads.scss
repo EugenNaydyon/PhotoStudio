@@ -105,11 +105,16 @@
 }
 
 .works__head {
-    @include font (600, 36px, 44px);
-    margin-bottom: 80px;
+    @include font (600, 24px, 34px);
+    margin-bottom: 40px;
     text-align: center;
 
     color: var(--header-color);
+
+    @media screen and (min-width:1023px) and (max-width:1439px) {
+        @include font (600, 30px, 36px);
+        margin-bottom: 80px;    
+    }
 }
 
 .workstages__head {
