@@ -80,32 +80,61 @@
 }
 
 .location__navigation-button {
-    position: absolute;
-    left: 63px;
-    top: 321px;
+    @media screen and (max-width: 1023px) {
+        display: flex;
+        position: absolute;
+        // margin: 0 auto;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
 
-    display: flex;
-    width: 1313px;
-    height: 73px;
+        width: 343px;
+        height: 36px;
+    
+        z-index: 2;
+    }
+    // position: absolute;
+    // left: 63px;
+    // top: 321px;
 
-    z-index: 2;
+    // display: flex;
+    // // width: 1313px;
+    // // height: 73px;
+
+    // z-index: 2;
 }
 
 .location__button {
-    @extend %margin-auto;
-    @include paddings(14px, 59px, 14px, 59px);
-    @include font (600, 16px, 20px);
-    margin-top: 60px;
-    margin-bottom: 0;
+    @media screen and (max-width:1023px) {
+        margin: 0 auto;
+        @include paddings(19px, 57px, 19px, 57px);
+        @include font (600, 14px, 17px);
+        margin-top: 32px;
+        margin-bottom: 0;
+    
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    
+        cursor: pointer;
+        border: none;
+    
+        color: var(--body-background-color);
+    }
+    // @extend %margin-auto;
+    // @include paddings(14px, 59px, 14px, 59px);
+    // @include font (600, 16px, 20px);
+    // margin-top: 60px;
+    // margin-bottom: 0;
 
-    text-align: center;
-    letter-spacing: 3px;
-    text-transform: uppercase;
+    // text-align: center;
+    // letter-spacing: 3px;
+    // text-transform: uppercase;
 
-    cursor: pointer;
-    border: none;
+    // cursor: pointer;
+    // border: none;
 
-    color: var(--body-background-color);
+    // color: var(--body-background-color);
 }
 
 .photoshoot__button {
