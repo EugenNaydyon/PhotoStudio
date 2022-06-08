@@ -61,3 +61,40 @@
         }
     }
 }
+
+@media screen and (min-width:1440px) {
+    .works {
+        padding-top: 120px;
+        padding-bottom: 60px;
+        // height: 973px;
+        width: 1440px;
+        margin: 0 auto;
+
+        &__images {
+            position: relative;
+            height: 638px;
+        }
+
+        &__img-mobile-lens {
+            display: inline-block;
+            // outline: 3px solid tomato;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            z-index: 2;
+        }
+
+        &__img-mobile-studio {
+            position: absolute;
+            top: 39px;
+            right: 0;
+        }
+
+        &__img-mobile-library {
+            position: absolute;
+                top: 39px;
+        }
+    }
+}

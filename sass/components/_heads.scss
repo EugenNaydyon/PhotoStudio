@@ -115,6 +115,11 @@
         @include font (600, 30px, 36px);
         margin-bottom: 80px;    
     }
+
+    @media screen and (min-width:1440px) {
+        @include font (600, 36px, 43px);
+        margin-bottom: 80px;
+    }
 }
 
 .workstages__head {

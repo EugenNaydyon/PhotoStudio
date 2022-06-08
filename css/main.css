@@ -211,6 +211,15 @@ ul {
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .works__head {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.19444;
+    margin-bottom: 80px;
+  }
+}
+
 .workstages__head {
   font-weight: 600;
   font-size: 36px;
@@ -725,6 +734,36 @@ ul {
   .works__img-mobile-studio {
     position: absolute;
     right: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .works {
+    padding-top: 120px;
+    padding-bottom: 60px;
+    width: 1440px;
+    margin: 0 auto;
+  }
+  .works__images {
+    position: relative;
+    height: 638px;
+  }
+  .works__img-mobile-lens {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .works__img-mobile-studio {
+    position: absolute;
+    top: 39px;
+    right: 0;
+  }
+  .works__img-mobile-library {
+    position: absolute;
+    top: 39px;
   }
 }
 
