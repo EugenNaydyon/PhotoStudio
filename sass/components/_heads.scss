@@ -32,29 +32,34 @@
 }
 
 .location__head {
-    @media screen and (max-width: 1023px) {
+    // @media screen and (max-width: 1023px) {
         @include font (600, 24px, 34px);
         margin-bottom: 40px;
         text-align: center;
         
         color: var(--header-color);
-    }
+}
 
-    @media screen and (min-widht:1024px) and (max-width: 1439px) {
-        @include font (700, 30px, 36px);
-        outline: 2px solid tomato;
-        margin-bottom: 40px;
-        text-align: center;
-        
-        color: var(--header-color);
+@media screen and (min-widht:1024px) and (max-width: 1439px) {
+    .location__head {
+        color: coral;
     }
+}
+
+    // @media screen and (min-widht:1024px) and (max-width: 1439px) {
+    //     @include font (700, 30px, 36px);
+    //     outline: 2px solid tomato;
+    //     margin-bottom: 40px;
+    //     text-align: center;
+    //     color: brown;
+    //     // color: var(--header-color);
+    // }
 
     // @include font (700, 36px, 44px);
     // margin-bottom: 80px;
     // text-align: center;
 
     // color: var(--header-color);
-}
 
 .modal-feedback__head {
     @include font (600, 30px, 36px);

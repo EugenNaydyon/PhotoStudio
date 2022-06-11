@@ -120,26 +120,18 @@ ul {
   color: var(--secondary-text-color);
 }
 
-@media screen and (max-width: 1023px) {
-  .location__head {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1.41667;
-    margin-bottom: 40px;
-    text-align: center;
-    color: var(--header-color);
-  }
+.location__head {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.41667;
+  margin-bottom: 40px;
+  text-align: center;
+  color: var(--header-color);
 }
 
 @media screen and (min-widht: 1024px) and (max-width: 1439px) {
   .location__head {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 1.2;
-    outline: 2px solid tomato;
-    margin-bottom: 40px;
-    text-align: center;
-    color: var(--header-color);
+    color: coral;
   }
 }
 
@@ -815,6 +807,18 @@ ul {
   }
   .location__galary {
     position: relative;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .location {
+    background-color: blue;
+  }
+}
+
+@media screen and (min-widht: 1024px) and (max-width: 1439px) {
+  .location {
+    background-color: blue;
   }
 }
 

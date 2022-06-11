@@ -36,8 +36,15 @@
             position: relative;
         }
     }
+}
 
-@media screen and (min-widht:1024px) and (max-width: 1439px) {
+@media screen and (min-width:1024px) and (max-width:1439px) {
+    .location {
+            background-color: blue;
+        }
+}
+
+    
     // position: relative;
     // padding-bottom: 80px;
 
@@ -75,7 +82,7 @@
     //     position: relative;
     // }
 }
-}
+
 
 // position: relative;
 
