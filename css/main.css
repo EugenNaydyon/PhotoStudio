@@ -140,6 +140,17 @@ ul {
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .location__head {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.19444;
+    margin-bottom: 80px;
+    text-align: center;
+    color: var(--header-color);
+  }
+}
+
 .modal-feedback__head {
   font-weight: 600;
   font-size: 30px;
@@ -340,6 +351,19 @@ ul {
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .location__navigation-button {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1313px;
+    height: 73px;
+    z-index: 2;
+  }
+}
+
 @media screen and (max-width: 1023px) {
   .location__button {
     margin: 0 auto;
@@ -372,6 +396,27 @@ ul {
     font-size: 16px;
     line-height: 1.25;
     margin-top: 32px;
+    margin-bottom: 0;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    color: var(--body-background-color);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .location__button {
+    margin: 0 auto;
+    padding-top: 19px;
+    padding-right: 57px;
+    padding-bottom: 19px;
+    padding-left: 57px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-top: 60px;
     margin-bottom: 0;
     text-align: center;
     letter-spacing: 3px;
@@ -871,6 +916,43 @@ ul {
     align-items: center;
     width: 64px;
     height: 64px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+  }
+  .location__span-icon--right {
+    margin-left: auto;
+  }
+  .location__svg-left-arrow, .location__svg-right-arrow {
+    width: 19px;
+    height: 40px;
+  }
+  .location__galary {
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .location {
+    background-color: #61615c;
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  .location__list {
+    display: flex;
+    justify-content: center;
+  }
+  .location__item:not(:last-child) {
+    margin-right: 28px;
+  }
+  .location__span-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 73px;
+    height: 73px;
     border-radius: 50%;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;

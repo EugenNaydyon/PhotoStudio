@@ -45,10 +45,6 @@
         width: 1024px;
         margin: 0 auto;
 
-        // &__navigation-button {
-        //     display: none;
-        // }
-        
         &__list {
             display: flex;
             justify-content: center;
@@ -83,6 +79,48 @@
             position: relative;
         }
     }
+
+@media screen and (min-width:1440px) {
+    background-color: rgb(97, 97, 92);
+        width: 1440px;
+        margin: 0 auto;
+        padding-top: 60px;
+        padding-bottom: 80px;
+    
+        &__list {
+            display: flex;
+            justify-content: center;
+        }
+    
+        &__item:not(:last-child) {
+            margin-right: 28px;
+        }
+    
+        &__span-icon {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 73px;
+            height: 73px;
+            border-radius: 50%;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+            background-color: #ffffff;
+        }
+    
+        &__span-icon--right {
+            margin-left: auto;
+        }
+    
+        &__svg-left-arrow,
+        &__svg-right-arrow {
+            width: 19px;
+            height: 40px;
+        }
+    
+        &__galary {
+            position: relative;
+        }
+}
 }
 
     
@@ -123,37 +161,3 @@
     //     position: relative;
     // }
 
-// position: relative;
-
-// padding-top: 60px;
-// padding-bottom: 80px;
-
-// background-image: url("../images/location/line-location.png");
-// background-repeat: no-repeat;
-// background-position: 0 10px;
-
-// &__list {
-//     display: flex;
-//     justify-content: center;
-// }
-
-// &__item:not(:last-child) {
-//     margin-right: 28px;
-// }
-
-// &__span-icon {
-//     display: inline-flex;
-//     justify-content: center;
-//     align-items: center;
-//     width: 73px;
-//     height: 73px;
-
-//     border-radius: 50%;
-//     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
-
-//     background-color: #ffffff;
-// }
-
-// &__span-icon--right {
-//     margin-left: auto;
-// }
