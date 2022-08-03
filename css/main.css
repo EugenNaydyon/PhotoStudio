@@ -92,13 +92,37 @@ ul {
   margin: 0 0;
 }
 
-.design__head {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.22222;
-  margin-bottom: 80px;
-  text-align: center;
-  color: var(--header-color);
+@media screen and (max-width: 1023px) {
+  .design__head {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.41667;
+    margin-bottom: 40px;
+    text-align: center;
+    color: var(--header-color);
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .design__head {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 80px;
+    text-align: center;
+    color: var(--header-color);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .design__head {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.19444;
+    margin-bottom: 80px;
+    text-align: center;
+    color: var(--header-color);
+  }
 }
 
 .gifts__head {
@@ -980,15 +1004,46 @@ ul {
   }
 }
 
-.design {
-  padding-top: 60px;
-  padding-bottom: 51px;
+@media screen and (max-width: 1023px) {
+  .design {
+    width: 375px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+  }
+  .design__bg {
+    width: 375px;
+    height: 375px;
+    background-color: #a1a09f;
+  }
 }
 
-.design__bg {
-  width: 1440px;
-  height: 674px;
-  background-image: url("../images/design/bg.png");
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .design {
+    width: 1024px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+  }
+  .design__bg {
+    width: 1026px;
+    height: 674px;
+    background-color: #a1a09f;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .design {
+    width: 1440px;
+    padding-top: 60px;
+    padding-bottom: 51px;
+    margin: 0 auto;
+  }
+  .design__bg {
+    width: 1440px;
+    height: 674px;
+    background-image: url("../images/design/bg.png");
+  }
 }
 
 .services {
